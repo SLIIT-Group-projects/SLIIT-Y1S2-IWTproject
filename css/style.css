@@ -1,0 +1,140 @@
+/* header */
+
+html {
+    scroll-behavior: smooth;
+}
+
+hr {
+    height: 2px;
+    margin: 15px 0;
+    background-color: #123142;
+  }
+
+ul.menu1{
+	list-style-type:none;
+	background-color: #123142;
+	overflow:hidden;
+    padding:8px 16px; 
+}
+
+li a{
+	display:block;
+	color:white;
+	text-align:relative;
+	padding:10px 16px;
+	text-decoration:none;
+}
+
+li a:hover{
+	background-color:rgb(89, 184, 187);
+}
+
+li.menu {
+    float:left;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* search bar*/
+.group {
+    display: inline-flex;
+    line-height: 28px;
+    align-items: center;
+    position: relative;
+    max-width: 250px;
+  }
+  
+  .input {
+    height: 40px;
+    line-height: 28px;
+    padding: 0 1rem;
+    width: 100%;
+    padding-left: 2.5rem;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    outline: none;
+    background-color: #D9E8D8;
+    color: #0d0c22;
+    box-shadow: 0 0 5px #C1D9BF, 0 0 0 10px #f5f5f5eb;
+    transition: .3s ease;
+  }
+  
+  .input::placeholder {
+    color: #777;
+  }
+  
+  .icon {
+    fill: #777;
+    width: 1rem;
+    height: 1rem;
+  }
+  
+
+/* footer */
+ul.menu2{
+	list-style-type:none;
+	background-color: #ffffff;
+	overflow:hidden;
+    padding:8px 16px; 
+}
+
+li a1{
+	display:block;
+	color:black;
+	text-align:center;
+	padding:10px 16px;
+	text-decoration:none;
+}
+
+footer p { 
+    font-size: 14px;
+    color: #555;
+}   
+button {
+    
+    width: 10em;
+    position: relative;
+    height: 3.5em;
+    border: 3px ridge #149CEA;
+    outline: none;
+    background-color: transparent;
+    color: white;
+    transition: 1s;
+    border-radius: 0.3em;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  button::after {
+    content: "";
+    position: absolute;
+    top: -10px;
+    left: 3%;
+    width: 95%;
+    height: 40%;
+    transition: 0.5s;
+    transform-origin: center;
+  }
+  
+  button::before {
+    content: "";
+    transform-origin: center;
+    position: absolute;
+    top: 80%;
+    left: 3%;
+    width: 95%;
+    height: 40%;
+    transition: 0.5s;
+  }
+  
+  button:hover::before, button:hover::after {
+    transform: scale(0)
+  }
+  
+  button:hover {
+    box-shadow: inset 0px 0px 25px #1479EA;
+  }

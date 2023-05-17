@@ -2,6 +2,7 @@
 <html>
 <head>
 	<title>WeeNet</title>
+	<!-- website icon -->
     <!-- link css file -->
 	<link rel="stylesheet" href="css/style.css">
     <!-- link js file -->
