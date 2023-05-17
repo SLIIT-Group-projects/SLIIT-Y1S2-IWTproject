@@ -10,7 +10,7 @@
 
 <body>
 <!-- Including Header -->
-<?php include 'header.php';
+<?php include 'header.php'
 <h1>Supplier Registration</br></h1>
 <form method="POST" action="#">
 Company Registerd Name: 
