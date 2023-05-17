@@ -10,7 +10,13 @@
 
 <body>
 <!-- Including Header -->
-<?php include 'header.php';?>
+<?php include 'header.php';
+<h1>echo "Supplier Registration";
+
+
+
+
+?>
 
 <hr>
 
