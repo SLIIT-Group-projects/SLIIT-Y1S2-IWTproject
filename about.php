@@ -63,6 +63,51 @@
         </div>
     </section>
 
+    <!-- about us page section 4 -->
+
+    <section class="abt_section4">
+        <div class="container abt_sect4_container">
+            <div class="abt_sect4_box1">
+                <div class="abt_sect4_heading">Meet Our Leaders</div>
+            </div>
+            <div class="abt_sect4_box2">
+                <input type="button" class="abt_sect4_btn abt_sect4_btn1" value="Co-Founders">
+                <input type="button" class="abt_sect4_btn abt_sect4_btn2" value="Board of Directors">
+                <input type="button" class="abt_sect4_btn abt_sect4_btn3" value="Coperate Managment">
+            </div>
+
+            <!-- first profile -->
+            <div class="abt_sect4_box3">
+                <div class="abt_sect4_box2_prof">
+                    <div class="abt_sect4_box2_prof1_img1"></div>
+                    <div class="abt_sect4_box2_prof_para">
+                        <div class="abt_sect4_box2_prof_para_heading">Daham kaushika</div>
+                        <div class="abt_sect4_box2_prof_para_txt">post 1</div>
+                    </div>
+                    <input type="button" class="abt_sect4_box2_prof_btn" value="see more">
+                </div>
+                <!-- second profile -->
+                <div class="abt_sect4_box2_prof">
+                <div class="abt_sect4_box2_prof2_img1"></div>
+                    <div class="abt_sect4_box2_prof_para">
+                        <div class="abt_sect4_box2_prof_para_heading">Siluni Rupasinghe</div>
+                        <div class="abt_sect4_box2_prof_para_txt">post 1</div>
+                    </div>
+                    <input type="button" class="abt_sect4_box2_prof_btn" value="see more">
+                </div>
+            <!-- third profile -->
+                <div class="abt_sect4_box2_prof">
+                <div class="abt_sect4_box2_prof3_img1"></div>
+                    <div class="abt_sect4_box2_prof_para">
+                        <div class="abt_sect4_box2_prof_para_heading">Sherwin Lee</div>
+                        <div class="abt_sect4_box2_prof_para_txt">post 1</div>
+                    </div>
+                    <input type="button" class="abt_sect4_box2_prof_btn" value="see more">
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!--Including footer -->
     <?php include 'footer.php'; ?>
 

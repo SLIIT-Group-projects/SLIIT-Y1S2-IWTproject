@@ -290,3 +290,110 @@ button:hover {
   color: rgb(183, 211, 254);
   font-size: 27px;
 }
+
+/* about us page section 4 css */
+
+.abt_section4{
+  width: 100%;
+  height: 700px;
+  background-color:#eee9e9 ;
+
+}
+.abt_sect4_container{
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+.abt_sect4_box1{
+  width: 250px;
+  height: 100px;
+  background-color: #555;
+  border-radius: 20px;
+  align-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.abt_sect4_heading{
+  font-size: 27px;
+  color: white;
+  font-weight: bold;
+}
+.abt_sect4_btn{
+  padding: 10px 15px;
+  border: 2px solid #555555;
+  font-size: 17px;
+  border-radius: 10px;
+  cursor: pointer;
+
+}
+.abt_sect4_btn1{
+  background-color: rgb(89, 89, 231);
+  color: white;
+}
+.abt_sect4_box3{
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+
+.abt_sect4_box2_prof{
+  width: 290px;
+  height: 300px;
+  background-color: #747171;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  border-radius: 10px;
+}
+
+/* first profile css */
+.abt_sect4_box2_prof1_img1{
+  width: 250px;
+  height: 200px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+  background-image: url(../resources/aboutUs/profile1.jpeg);
+}
+.abt_sect4_box2_prof_para_heading{
+  color: rgb(183, 211, 254);
+  font-size: 20px;
+}
+.abt_sect4_box2_prof_para_txt{
+  color: white;
+  font-size: 16px;
+}
+.abt_sect4_box2_prof_btn{
+  padding: 5px 15px;
+  font-size: 14px;
+  border-radius: 10px;
+  border-color: rgb(183, 211, 254);
+  border-style: solid;
+  cursor: pointer;
+}
+
+/* second profile */
+.abt_sect4_box2_prof2_img1{
+  width: 250px;
+  height: 200px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+  background-image: url(../resources/aboutUs/profile4.jpeg);
+}
+/* second profile */
+.abt_sect4_box2_prof3_img1{
+  width: 250px;
+  height: 200px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+  background-image: url(../resources/aboutUs/profile3.jpeg);
+}
