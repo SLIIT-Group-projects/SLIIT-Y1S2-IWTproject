@@ -13,6 +13,7 @@
 </header>
 
 <body>
+<div class="my-footer">
     <footer>
         <center>
             <ul class="menu2">
@@ -37,7 +38,7 @@
                     </li>
                 </button>
         </center>
-        </ul>
+            </ul>
         <p> &emsp; &emsp;&emsp;&emsp;&emsp;&emsp; &emsp;&emsp;&emsp; &emsp;&emsp;&emsp; &emsp;&emsp; &emsp;&emsp; &emsp;&emsp; &emsp;&emsp;&emsp; &emsp;&emsp; &emsp;&emsp; &emsp;Help Center&emsp;&emsp;&emsp; &emsp;&emsp; &emsp;&emsp;Live Chat&emsp;&emsp; &emsp;&emsp;&emsp;&emsp;About WeeNet &nbsp;&emsp;&emsp; &emsp;&emsp; &nbsp;&emsp; Legal Imprint</p>
         <p> &emsp; &emsp;&emsp;&emsp;&emsp;&emsp;&emsp; &emsp;&emsp; &emsp;&emsp;&emsp;&emsp; &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; &emsp;&emsp; &emsp;&emsp; &emsp;Security Center&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Email&emsp; &emsp; &emsp; &emsp;&emsp; &emsp; &emsp; &nbsp;Blogs &nbsp; &emsp; &emsp; &emsp;&emsp;&emsp; &emsp;&emsp; &nbsp;&emsp; Policies</p>
         <p> &emsp; &emsp;&emsp;&emsp;&emsp;&emsp;&emsp; &emsp;&emsp; &emsp;&emsp;&emsp;&emsp; &emsp;&emsp;&emsp;&emsp; &emsp; &emsp;&emsp; &emsp;&emsp;&emsp;&emsp;&emsp; &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Phone&emsp; &emsp; &emsp;&emsp;&emsp;&emsp; &emsp; &nbsp;Careers &nbsp; &emsp; &emsp;&emsp;&emsp;&emsp; &emsp; &emsp; &nbsp;&emsp; Terms</p>
@@ -59,6 +60,7 @@
                 </p>
             </center>
     </footer>
+</div>    
 </body>
 
 </html>

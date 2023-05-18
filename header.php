@@ -7,10 +7,17 @@
     <!-- link css file -->
     <link rel="stylesheet" href="css/style.css">
     <!-- link js file -->
-    <script src="js/script.js"></script>
+    <script src="shenaljs.js"></script>
+
+    <style>
+    .dropdown {
+      display: none;
+    }
+  </style>
 </header>
 
 <body>
+    
 
     <!-- header line-->
 
@@ -32,16 +39,34 @@
         <a href="index.php"><img src="resources/home/fticons/profile.png" width="35px" height="35px" alt="profile"></a>
         <!-- dropdown menu -->
         <div class="header-bar">
-            <a href="#" class="logo"><img src="resources/home/fticons/dmenu.png" alt="dropdown"/></a>
+            <a href="#" class="logo"><img src="resources/home/fticons/dmenu.png" width="35px" height="35px" alt="dropdown"/></a>
                 <div class="dropdown">
                     <ul>
-                        <li><a href="#">Orders</a></li>
-                        <li><a href="#">News</a></li>
-                        <li><a href="#">Blogs</a></li>
-                        <li><a href="#">Log out</a></li>
+                        <li><a href="orders.php">My Orders</a></li>
+                        <li><a href="events.php">Events</a></li>
+                        <li><a href="login.php">Log out</a></li>
                     </ul>
                 </div>
         </div>
+
+<!-- dropdown menu js-->
+    
+        <script>
+            const logoImg = document.querySelector('.logo img');
+            const dropdown = document.querySelector('.dropdown');
+
+                logoImg.addEventListener('click', () => {
+                dropdown.style.display = dropdown.style.display === 'none' ? 'block' : 'none';
+            });
+
+                document.addEventListener('click', (event) => {
+                const target = event.target;
+                if (!logoImg.contains(target) && !dropdown.contains(target)) {
+                dropdown.style.display = 'none';   }
+            });
+        </script>
+
+
 
 
 
