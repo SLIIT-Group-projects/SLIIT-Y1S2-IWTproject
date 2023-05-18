@@ -138,3 +138,19 @@ button {
   button:hover {
     box-shadow: inset 0px 0px 25px #1479EA;
   }
+
+
+  /*siluni*/
+  .f1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:larger;
+    align-items:first center;
+    width: 100%;
+
+  }
+  /*
+  body{ 
+    background-image:url('../resources/supplierReg.jpg');
+    background-repeat:no-repeat;
+    background-size: cover;
+    }*/
