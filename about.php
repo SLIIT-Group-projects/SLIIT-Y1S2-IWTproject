@@ -82,7 +82,7 @@
                     <div class="abt_sect4_box2_prof1_img1"></div>
                     <div class="abt_sect4_box2_prof_para">
                         <div class="abt_sect4_box2_prof_para_heading">Daham kaushika</div>
-                        <div class="abt_sect4_box2_prof_para_txt">post 1</div>
+                        <div class="abt_sect4_box2_prof_para_txt">Co Founder</div>
                     </div>
                     <input type="button" class="abt_sect4_box2_prof_btn" value="see more">
                 </div>
@@ -91,7 +91,7 @@
                 <div class="abt_sect4_box2_prof2_img1"></div>
                     <div class="abt_sect4_box2_prof_para">
                         <div class="abt_sect4_box2_prof_para_heading">Siluni Rupasinghe</div>
-                        <div class="abt_sect4_box2_prof_para_txt">post 1</div>
+                        <div class="abt_sect4_box2_prof_para_txt">Co Founder</div>
                     </div>
                     <input type="button" class="abt_sect4_box2_prof_btn" value="see more">
                 </div>
@@ -100,7 +100,7 @@
                 <div class="abt_sect4_box2_prof3_img1"></div>
                     <div class="abt_sect4_box2_prof_para">
                         <div class="abt_sect4_box2_prof_para_heading">Sherwin Lee</div>
-                        <div class="abt_sect4_box2_prof_para_txt">post 1</div>
+                        <div class="abt_sect4_box2_prof_para_txt">Co Founder</div>
                     </div>
                     <input type="button" class="abt_sect4_box2_prof_btn" value="see more">
                 </div>

@@ -1,7 +1,7 @@
 /* coomon things for all pages */
 .container {
   width: 100%;
-  padding: 0 90px;
+  padding: 0 80px;
 }
 
 /* header */
@@ -168,7 +168,7 @@ button:hover {
   color: white;
   font-weight: bold;
   border-radius: 20px;
-  background-color: #303030;
+  background-color: #3e3e3e;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -210,17 +210,17 @@ button:hover {
   gap: 30px;
 }
 .abt_sect2_image {
-  height: 250px;
-  width: 250px;
+  height: 300px;
+  width: 300px;
   background-size: cover;
   border-radius: 20px;
   background-image: url(../resources/aboutUs/our.jpg);
 }
 .abt_sect2_para {
   width: 400px;
-  color: black;
-  font-size: 17px;
-  line-height: 30px;
+  color: rgb(50, 49, 49);
+  font-size: 18px;
+  line-height: 35px;
 }
 
 /* about us page section 3 */
@@ -325,7 +325,7 @@ button:hover {
 }
 .abt_sect4_btn{
   padding: 10px 15px;
-  border: 2px solid #555555;
+  border: 2px solid #7c7b7b;
   font-size: 17px;
   border-radius: 10px;
   cursor: pointer;
