@@ -44,7 +44,7 @@
                     <ul>
                         <li><a href="orders.php">My Orders</a></li>
                         <li><a href="events.php">Events</a></li>
-                        <li><a href="login.php">Log out</a></li>
+                        <li><a href="signup.php">Log out</a></li>
                     </ul>
                 </div>
         </div>
