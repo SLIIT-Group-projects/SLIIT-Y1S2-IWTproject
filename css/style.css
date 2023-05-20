@@ -397,3 +397,15 @@ button:hover {
   border-radius: 10px;
   background-image: url(../resources/aboutUs/profile3.jpeg);
 }
+
+
+/* about us page section 5 css */
+.abt_section5{
+  height: 600px;
+  width: 100%;
+  background-color: #3e3e3e;
+  
+}
+.abt_sect5_box1{
+  padding: 0;
+}

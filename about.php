@@ -108,6 +108,17 @@
         </div>
     </section>
 
+
+
+    <!--about us page section 5 -->
+    <div class="abt_section5">
+        <div class="abt_sect5_container">
+            <div class="abt_sect5_box1">
+                <div class="abt_sect5_heading">Awards & Achievements</div>
+            </div>
+        </div>
+    </div>
+
     <!--Including footer -->
     <?php include 'footer.php'; ?>
 
