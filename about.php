@@ -71,15 +71,15 @@
                 <div class="abt_sect4_heading">Meet Our Leaders</div>
             </div>
             <div class="abt_sect4_box2">
-                <input type="button" class="abt_sect4_btn abt_sect4_btn1" value="Co-Founders">
-                <input type="button" class="abt_sect4_btn abt_sect4_btn2" value="Board of Directors">
-                <input type="button" class="abt_sect4_btn abt_sect4_btn3" value="Coperate Managment">
+                <input type="button" class="abt_sect4_btn abt_sect4_btn1" id="abt_leader_btn1" value="Co-Founders" onclick="sectionSwitch('abt_change_block1',event);">
+                <input type="button" class="abt_sect4_btn abt_sect4_btn2" id="abt_leader_btn2" value="Board of Directors" onclick="sectionSwitch('abt_change_block2',event);">
+                <input type="button" class="abt_sect4_btn abt_sect4_btn3" id="abt_leader_btn3" value="Coperate Managment" onclick="sectionSwitch('abt_change_block3',event);">
             </div>
-
+            <!-- first set -->
             <!-- first profile -->
-            <div class="abt_sect4_box3">
+            <div class="abt_sect4_box3" id="abt_change_block1">
                 <div class="abt_sect4_box2_prof">
-                    <div class="abt_sect4_box2_prof1_img1"></div>
+                    <div class="abt_sect4_box2_prof_container abt_sect4_box2_prof1_img"></div>
                     <div class="abt_sect4_box2_prof_para">
                         <div class="abt_sect4_box2_prof_para_heading">Daham kaushika</div>
                         <div class="abt_sect4_box2_prof_para_txt">Co Founder</div>
@@ -88,7 +88,7 @@
                 </div>
                 <!-- second profile -->
                 <div class="abt_sect4_box2_prof">
-                <div class="abt_sect4_box2_prof2_img1"></div>
+                <div class="abt_sect4_box2_prof_container abt_sect4_box2_prof2_img"></div>
                     <div class="abt_sect4_box2_prof_para">
                         <div class="abt_sect4_box2_prof_para_heading">Siluni Rupasinghe</div>
                         <div class="abt_sect4_box2_prof_para_txt">Co Founder</div>
@@ -97,9 +97,71 @@
                 </div>
             <!-- third profile -->
                 <div class="abt_sect4_box2_prof">
-                <div class="abt_sect4_box2_prof3_img1"></div>
+                <div class="abt_sect4_box2_prof_container abt_sect4_box2_prof3_img"></div>
                     <div class="abt_sect4_box2_prof_para">
                         <div class="abt_sect4_box2_prof_para_heading">Sherwin Lee</div>
+                        <div class="abt_sect4_box2_prof_para_txt">Co Founder</div>
+                    </div>
+                    <input type="button" class="abt_sect4_box2_prof_btn" value="see more">
+                </div>
+            </div>
+
+            <!-- second set -->
+            <!-- second set first profile -->
+            <div class="abt_sect4_box3 " id="abt_change_block2">
+                <div class="abt_sect4_box2_prof">
+                    <div class="abt_sect4_box2_prof_container abt_sect4_box2_prof4_img"></div>
+                    <div class="abt_sect4_box2_prof_para">
+                        <div class="abt_sect4_box2_prof_para_heading">lakshman</div>
+                        <div class="abt_sect4_box2_prof_para_txt">Co Founder</div>
+                    </div>
+                    <input type="button" class="abt_sect4_box2_prof_btn" value="see more">
+                </div>
+                <!-- second set second profile -->
+                <div class="abt_sect4_box2_prof">
+                <div class="abt_sect4_box2_prof_container abt_sect4_box2_prof5_img"></div>
+                    <div class="abt_sect4_box2_prof_para">
+                        <div class="abt_sect4_box2_prof_para_heading">saman</div>
+                        <div class="abt_sect4_box2_prof_para_txt">Co Founder</div>
+                    </div>
+                    <input type="button" class="abt_sect4_box2_prof_btn" value="see more">
+                </div>
+            <!-- second set third profile -->
+                <div class="abt_sect4_box2_prof">
+                <div class="abt_sect4_box2_prof_container abt_sect4_box2_prof6_img"></div>
+                    <div class="abt_sect4_box2_prof_para">
+                        <div class="abt_sect4_box2_prof_para_heading">kasun</div>
+                        <div class="abt_sect4_box2_prof_para_txt">Co Founder</div>
+                    </div>
+                    <input type="button" class="abt_sect4_box2_prof_btn" value="see more">
+                </div>
+            </div>
+
+            <!-- third set -->
+            <!-- third set first profile -->
+            <div class="abt_sect4_box3 " id="abt_change_block3">
+                <div class="abt_sect4_box2_prof">
+                    <div class="abt_sect4_box2_prof_container abt_sect4_box2_prof7_img"></div>
+                    <div class="abt_sect4_box2_prof_para">
+                        <div class="abt_sect4_box2_prof_para_heading">ranjan</div>
+                        <div class="abt_sect4_box2_prof_para_txt">Co Founder</div>
+                    </div>
+                    <input type="button" class="abt_sect4_box2_prof_btn" value="see more">
+                </div>
+                <!-- third set second profile -->
+                <div class="abt_sect4_box2_prof">
+                <div class="abt_sect4_box2_prof_container abt_sect4_box2_prof8_img"></div>
+                    <div class="abt_sect4_box2_prof_para">
+                        <div class="abt_sect4_box2_prof_para_heading">aruni</div>
+                        <div class="abt_sect4_box2_prof_para_txt">Co Founder</div>
+                    </div>
+                    <input type="button" class="abt_sect4_box2_prof_btn" value="see more">
+                </div>
+            <!-- third set third profile -->
+                <div class="abt_sect4_box2_prof">
+                <div class="abt_sect4_box2_prof_container abt_sect4_box2_prof9_img"></div>
+                    <div class="abt_sect4_box2_prof_para">
+                        <div class="abt_sect4_box2_prof_para_heading">ramesh</div>
                         <div class="abt_sect4_box2_prof_para_txt">Co Founder</div>
                     </div>
                     <input type="button" class="abt_sect4_box2_prof_btn" value="see more">

@@ -331,14 +331,26 @@ button:hover {
   cursor: pointer;
 
 }
+/* changing button css */
 .abt_sect4_btn1{
   background-color: rgb(89, 89, 231);
   color: white;
 }
+.abt_sect4_btn2{
+  background-color: white;
+  color: black;
+}
+
+.abt_sect4_btn3{
+  background-color: white;
+  color: black;
+}
+
 .abt_sect4_box3{
   display: flex;
   flex-direction: row;
   gap: 30px;
+  /* overflow: hidden; */
 }
 
 .abt_sect4_box2_prof{
@@ -354,12 +366,14 @@ button:hover {
 }
 
 /* first profile css */
-.abt_sect4_box2_prof1_img1{
+.abt_sect4_box2_prof_container{
   width: 250px;
   height: 200px;
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 10px;
+}
+.abt_sect4_box2_prof1_img{
   background-image: url(../resources/aboutUs/profile1.jpeg);
 }
 .abt_sect4_box2_prof_para_heading{
@@ -380,22 +394,39 @@ button:hover {
 }
 
 /* second profile */
-.abt_sect4_box2_prof2_img1{
-  width: 250px;
-  height: 200px;
-  background-repeat: no-repeat;
-  background-size: cover;
-  border-radius: 10px;
+.abt_sect4_box2_prof2_img{
   background-image: url(../resources/aboutUs/profile4.jpeg);
 }
 /* second profile */
-.abt_sect4_box2_prof3_img1{
-  width: 250px;
-  height: 200px;
-  background-repeat: no-repeat;
-  background-size: cover;
-  border-radius: 10px;
+.abt_sect4_box2_prof3_img{
   background-image: url(../resources/aboutUs/profile3.jpeg);
+}
+/*profile image of second sets*/
+.abt_sect4_box2_prof4_img{
+  background-image: url(../resources/aboutUs/profile1.jpeg);
+}
+.abt_sect4_box2_prof5_img{
+  background-image: url(../resources/aboutUs/profile1.jpeg);
+}
+.abt_sect4_box2_prof6_img{
+  background-image: url(../resources/aboutUs/profile1.jpeg);
+}
+/* profile image od third set  */
+.abt_sect4_box2_prof7_img{
+  background-image: url(../resources/aboutUs/profile1.jpeg);
+}
+.abt_sect4_box2_prof8_img{
+  background-image: url(../resources/aboutUs/profile1.jpeg);
+}
+.abt_sect4_box2_prof9_img{
+  background-image: url(../resources/aboutUs/profile1.jpeg);
+}
+/* hide and block of profiles */
+#abt_change_block2{
+  display: none;
+}
+#abt_change_block3{
+  display: none;
 }
 
 
