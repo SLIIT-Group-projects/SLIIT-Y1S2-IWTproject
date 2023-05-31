@@ -178,7 +178,6 @@ button:hover {
 .abt_section2 {
   width: 100%;
   height: 600px;
-
 }
 .abt_sect2_container {
   padding: 0;
@@ -225,13 +224,12 @@ button:hover {
 
 /* about us page section 3 */
 
-.abt_section3{
+.abt_section3 {
   width: 100%;
   height: 700px;
   background-color: #555;
-
 }
-.abt_sect3_container{
+.abt_sect3_container {
   padding: 0;
   height: 100%;
   display: flex;
@@ -239,22 +237,21 @@ button:hover {
   justify-content: center;
   align-items: center;
 }
-.abt_sect3_box1{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 20px;
-
-}
-
-.abt_sect3_box3{
+.abt_sect3_box1 {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 20px;
 }
 
-.abt_sect3_img1{
+.abt_sect3_box3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.abt_sect3_img1 {
   height: 250px;
   width: 250px;
   background-size: cover;
@@ -268,7 +265,7 @@ button:hover {
   line-height: 30px;
 }
 
-.abt_sect3_img2{
+.abt_sect3_img2 {
   height: 250px;
   width: 250px;
   background-size: cover;
@@ -276,7 +273,7 @@ button:hover {
   background-image: url(../resources/aboutUs/mission.jpg);
 }
 
-.abt_sect3_heading{
+.abt_sect3_heading {
   width: 100px;
   height: 50px;
   background-color: #777;
@@ -286,20 +283,19 @@ button:hover {
   justify-content: center;
   align-items: center;
 }
-.abt_sect3_heading_span{
+.abt_sect3_heading_span {
   color: rgb(183, 211, 254);
   font-size: 27px;
 }
 
 /* about us page section 4 css */
 
-.abt_section4{
+.abt_section4 {
   width: 100%;
   height: 700px;
-  background-color:#eee9e9 ;
-
+  background-color: #eee9e9;
 }
-.abt_sect4_container{
+.abt_sect4_container {
   padding: 0;
   height: 100%;
   display: flex;
@@ -308,7 +304,7 @@ button:hover {
   align-items: center;
   gap: 40px;
 }
-.abt_sect4_box1{
+.abt_sect4_box1 {
   width: 250px;
   height: 100px;
   background-color: #555;
@@ -318,42 +314,41 @@ button:hover {
   align-items: center;
   justify-content: center;
 }
-.abt_sect4_heading{
+.abt_sect4_heading {
   font-size: 27px;
   color: white;
   font-weight: bold;
 }
-.abt_sect4_btn{
+.abt_sect4_btn {
   padding: 10px 15px;
   border: 2px solid #7c7b7b;
   font-size: 17px;
   border-radius: 10px;
   cursor: pointer;
-
 }
 /* changing button css */
-.abt_sect4_btn1{
+.abt_sect4_btn1 {
   background-color: rgb(89, 89, 231);
   color: white;
 }
-.abt_sect4_btn2{
+.abt_sect4_btn2 {
   background-color: white;
   color: black;
 }
 
-.abt_sect4_btn3{
+.abt_sect4_btn3 {
   background-color: white;
   color: black;
 }
 
-.abt_sect4_box3{
+.abt_sect4_box3 {
   display: flex;
   flex-direction: row;
   gap: 30px;
   /* overflow: hidden; */
 }
 
-.abt_sect4_box2_prof{
+.abt_sect4_box2_prof {
   width: 290px;
   height: 300px;
   background-color: #747171;
@@ -366,25 +361,25 @@ button:hover {
 }
 
 /* first profile css */
-.abt_sect4_box2_prof_container{
+.abt_sect4_box2_prof_container {
   width: 250px;
   height: 200px;
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 10px;
 }
-.abt_sect4_box2_prof1_img{
+.abt_sect4_box2_prof1_img {
   background-image: url(../resources/aboutUs/profile1.jpeg);
 }
-.abt_sect4_box2_prof_para_heading{
+.abt_sect4_box2_prof_para_heading {
   color: rgb(183, 211, 254);
   font-size: 20px;
 }
-.abt_sect4_box2_prof_para_txt{
+.abt_sect4_box2_prof_para_txt {
   color: white;
   font-size: 16px;
 }
-.abt_sect4_box2_prof_btn{
+.abt_sect4_box2_prof_btn {
   padding: 5px 15px;
   font-size: 14px;
   border-radius: 10px;
@@ -394,49 +389,93 @@ button:hover {
 }
 
 /* second profile */
-.abt_sect4_box2_prof2_img{
-  background-image: url(../resources/aboutUs/profile4.jpeg);
-}
-/* second profile */
-.abt_sect4_box2_prof3_img{
+.abt_sect4_box2_prof2_img {
   background-image: url(../resources/aboutUs/profile3.jpeg);
 }
+/* second profile */
+.abt_sect4_box2_prof3_img {
+  background-image: url(../resources/aboutUs/profile2.jpeg);
+}
 /*profile image of second sets*/
-.abt_sect4_box2_prof4_img{
-  background-image: url(../resources/aboutUs/profile1.jpeg);
+.abt_sect4_box2_prof4_img {
+  background-image: url(../resources/aboutUs/profile4.jpeg);
 }
-.abt_sect4_box2_prof5_img{
-  background-image: url(../resources/aboutUs/profile1.jpeg);
+.abt_sect4_box2_prof5_img {
+  background-image: url(../resources/aboutUs/profilee5.jpeg);
 }
-.abt_sect4_box2_prof6_img{
-  background-image: url(../resources/aboutUs/profile1.jpeg);
+.abt_sect4_box2_prof6_img {
+  background-image: url(../resources/aboutUs/profilee4.jpeg);
 }
 /* profile image od third set  */
-.abt_sect4_box2_prof7_img{
-  background-image: url(../resources/aboutUs/profile1.jpeg);
+.abt_sect4_box2_prof7_img {
+  background-image: url(../resources/aboutUs/profile7.jpeg);
 }
-.abt_sect4_box2_prof8_img{
-  background-image: url(../resources/aboutUs/profile1.jpeg);
+.abt_sect4_box2_prof8_img {
+  background-image: url(../resources/aboutUs/profile8.jpeg);
 }
-.abt_sect4_box2_prof9_img{
-  background-image: url(../resources/aboutUs/profile1.jpeg);
+.abt_sect4_box2_prof9_img {
+  background-image: url(../resources/aboutUs/profile9.jpeg);
 }
 /* hide and block of profiles */
-#abt_change_block2{
+#abt_change_block2 {
   display: none;
 }
-#abt_change_block3{
+#abt_change_block3 {
   display: none;
 }
-
 
 /* about us page section 5 css */
-.abt_section5{
+.abt_section5 {
   height: 600px;
   width: 100%;
   background-color: #3e3e3e;
+}
+.abt_sect5_container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+
   
 }
-.abt_sect5_box1{
-  padding: 0;
+.abt_sect5_box1 {
+  width: 300px;
+  height: 60px;
+  border-radius: 20px;
+  align-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #747171;
+}
+.abt_sect5_heading {
+  font-size: 26px;
+  color: white;
+  font-weight: bold;
+}
+.abt_sect5_box2 {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+
+}
+.abt_sect5_box2_prof {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  width: 200px;
+  background-color: #777;
+}
+.abt_sect5_box2_img_com{
+  width: 130px;
+  height: 130px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: center;
+  border-radius: 10px;
+  background-image: url(../resources/aboutUs/awardLogo1.png);
 }

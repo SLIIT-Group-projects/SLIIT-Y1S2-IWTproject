@@ -81,7 +81,7 @@
                 <div class="abt_sect4_box2_prof">
                     <div class="abt_sect4_box2_prof_container abt_sect4_box2_prof1_img"></div>
                     <div class="abt_sect4_box2_prof_para">
-                        <div class="abt_sect4_box2_prof_para_heading">Daham kaushika</div>
+                        <div class="abt_sect4_box2_prof_para_heading">John Rev</div>
                         <div class="abt_sect4_box2_prof_para_txt">Co Founder</div>
                     </div>
                     <input type="button" class="abt_sect4_box2_prof_btn" value="see more">
@@ -90,7 +90,7 @@
                 <div class="abt_sect4_box2_prof">
                 <div class="abt_sect4_box2_prof_container abt_sect4_box2_prof2_img"></div>
                     <div class="abt_sect4_box2_prof_para">
-                        <div class="abt_sect4_box2_prof_para_heading">Siluni Rupasinghe</div>
+                        <div class="abt_sect4_box2_prof_para_heading">Kely Mass</div>
                         <div class="abt_sect4_box2_prof_para_txt">Co Founder</div>
                     </div>
                     <input type="button" class="abt_sect4_box2_prof_btn" value="see more">
@@ -99,7 +99,7 @@
                 <div class="abt_sect4_box2_prof">
                 <div class="abt_sect4_box2_prof_container abt_sect4_box2_prof3_img"></div>
                     <div class="abt_sect4_box2_prof_para">
-                        <div class="abt_sect4_box2_prof_para_heading">Sherwin Lee</div>
+                        <div class="abt_sect4_box2_prof_para_heading">Adam Sendmin</div>
                         <div class="abt_sect4_box2_prof_para_txt">Co Founder</div>
                     </div>
                     <input type="button" class="abt_sect4_box2_prof_btn" value="see more">
@@ -112,8 +112,8 @@
                 <div class="abt_sect4_box2_prof">
                     <div class="abt_sect4_box2_prof_container abt_sect4_box2_prof4_img"></div>
                     <div class="abt_sect4_box2_prof_para">
-                        <div class="abt_sect4_box2_prof_para_heading">lakshman</div>
-                        <div class="abt_sect4_box2_prof_para_txt">Co Founder</div>
+                        <div class="abt_sect4_box2_prof_para_heading">Sandra norwi</div>
+                        <div class="abt_sect4_box2_prof_para_txt">Director</div>
                     </div>
                     <input type="button" class="abt_sect4_box2_prof_btn" value="see more">
                 </div>
@@ -121,8 +121,8 @@
                 <div class="abt_sect4_box2_prof">
                 <div class="abt_sect4_box2_prof_container abt_sect4_box2_prof5_img"></div>
                     <div class="abt_sect4_box2_prof_para">
-                        <div class="abt_sect4_box2_prof_para_heading">saman</div>
-                        <div class="abt_sect4_box2_prof_para_txt">Co Founder</div>
+                        <div class="abt_sect4_box2_prof_para_heading">Danel Gary</div>
+                        <div class="abt_sect4_box2_prof_para_txt">Director</div>
                     </div>
                     <input type="button" class="abt_sect4_box2_prof_btn" value="see more">
                 </div>
@@ -130,8 +130,8 @@
                 <div class="abt_sect4_box2_prof">
                 <div class="abt_sect4_box2_prof_container abt_sect4_box2_prof6_img"></div>
                     <div class="abt_sect4_box2_prof_para">
-                        <div class="abt_sect4_box2_prof_para_heading">kasun</div>
-                        <div class="abt_sect4_box2_prof_para_txt">Co Founder</div>
+                        <div class="abt_sect4_box2_prof_para_heading">David Richyard</div>
+                        <div class="abt_sect4_box2_prof_para_txt">Executive Director</div>
                     </div>
                     <input type="button" class="abt_sect4_box2_prof_btn" value="see more">
                 </div>
@@ -143,8 +143,8 @@
                 <div class="abt_sect4_box2_prof">
                     <div class="abt_sect4_box2_prof_container abt_sect4_box2_prof7_img"></div>
                     <div class="abt_sect4_box2_prof_para">
-                        <div class="abt_sect4_box2_prof_para_heading">ranjan</div>
-                        <div class="abt_sect4_box2_prof_para_txt">Co Founder</div>
+                        <div class="abt_sect4_box2_prof_para_heading">Emma Gisella</div>
+                        <div class="abt_sect4_box2_prof_para_txt">Chief Operating Officer</div>
                     </div>
                     <input type="button" class="abt_sect4_box2_prof_btn" value="see more">
                 </div>
@@ -152,8 +152,8 @@
                 <div class="abt_sect4_box2_prof">
                 <div class="abt_sect4_box2_prof_container abt_sect4_box2_prof8_img"></div>
                     <div class="abt_sect4_box2_prof_para">
-                        <div class="abt_sect4_box2_prof_para_heading">aruni</div>
-                        <div class="abt_sect4_box2_prof_para_txt">Co Founder</div>
+                        <div class="abt_sect4_box2_prof_para_heading">Justin Sean</div>
+                        <div class="abt_sect4_box2_prof_para_txt">Deputy Genral Manager</div>
                     </div>
                     <input type="button" class="abt_sect4_box2_prof_btn" value="see more">
                 </div>
@@ -161,8 +161,8 @@
                 <div class="abt_sect4_box2_prof">
                 <div class="abt_sect4_box2_prof_container abt_sect4_box2_prof9_img"></div>
                     <div class="abt_sect4_box2_prof_para">
-                        <div class="abt_sect4_box2_prof_para_heading">ramesh</div>
-                        <div class="abt_sect4_box2_prof_para_txt">Co Founder</div>
+                        <div class="abt_sect4_box2_prof_para_heading">Daisy Laura</div>
+                        <div class="abt_sect4_box2_prof_para_txt">Chief Financial Officer</div>
                     </div>
                     <input type="button" class="abt_sect4_box2_prof_btn" value="see more">
                 </div>
@@ -178,6 +178,27 @@
             <div class="abt_sect5_box1">
                 <div class="abt_sect5_heading">Awards & Achievements</div>
             </div>
+        <div class="abt_sect5_box2">
+            <div class="abt_sect5_box2_prof">
+                <div class="abt_sect5_box2_img_com abt_sect5_box2_img1"></div>
+                <div class="abt_sect5_box2_para">paragraog of awards</div>
+            </div>
+
+            <div class="abt_sect5_box2_prof">
+                <div class="abt_sect5_box2_img_com abt_sect5_box2_img2"></div>
+                <div class="abt_sect5_box2_para">paragraog of awards</div>
+            </div>
+
+            <div class="abt_sect5_box2_prof">
+                <div class="abt_sect5_box2_img_com abt_sect5_box2_img3"></div>
+                <div class="abt_sect5_box2_para">paragraog of awards</div>
+            </div>
+
+            <div class="abt_sect5_box2_prof">
+                <div class="abt_sect5_box2_img_com abt_sect5_box2_img4"></div>
+                <div class="abt_sect5_box2_para">paragraog of awards</div>
+            </div>
+        </div>
         </div>
     </div>
 
