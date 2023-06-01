@@ -15,19 +15,15 @@
     <hr>
     <!-- about us page section 1 -->
     <section class="abt_section1">
-        <div class="container abt_sect1_container">
-            <div class="abt_sect1_box1">
-                <div class="">
-                    About Us
-                </div>
-            </div>
+        <div class="abt_sect1_container">
+            <div class="abt_sect1_box1">About Us</div>
         </div>
     </section>
 
 
     <!-- about us page section 2 -->
     <section class="abt_section2">
-        <div class="container abt_sect2_container">
+        <div class="abt_sect2_container">
             <div class="abt_sect2_box1">
                 <div class="abt_sect2_heading">Our story</div>
             </div>
@@ -66,7 +62,7 @@
     <!-- about us page section 4 -->
 
     <section class="abt_section4">
-        <div class="container abt_sect4_container">
+        <div class="abt_sect4_container">
             <div class="abt_sect4_box1">
                 <div class="abt_sect4_heading">Meet Our Leaders</div>
             </div>
@@ -181,7 +177,7 @@
         <div class="abt_sect5_box2">
             <div class="abt_sect5_box2_prof">
                 <div class="abt_sect5_box2_img_com abt_sect5_box2_img1"></div>
-                <div class="abt_sect5_box2_para">paragraog of awards</div>
+                <div class="abt_sect5_box2_para">paragrao of awards</div>
             </div>
 
             <div class="abt_sect5_box2_prof">

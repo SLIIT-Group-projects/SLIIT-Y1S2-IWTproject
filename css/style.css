@@ -150,14 +150,13 @@ button:hover {
   width: 100%;
   height: 452px;
   background-size: cover;
-  background-repeat: no-repeat;
   background-image: url(../resources/aboutUs/background.jpg);
 }
 .abt_sect1_container {
   padding: 0;
   height: 100%;
   display: flex;
-  flex-direction: row;
+  /* flex-direction: column; */
   justify-content: center;
   align-items: center;
 }
@@ -345,7 +344,7 @@ button:hover {
   display: flex;
   flex-direction: row;
   gap: 30px;
-  /* overflow: hidden; */
+
 }
 
 .abt_sect4_box2_prof {
