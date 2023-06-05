@@ -48,7 +48,7 @@
 
 <h1><center>Supplier Registration</center></br></h1>
 <form method="POST" action="#"><center>
-
+<h4>
 <label>Company Registerd Name:</lable></br> 
 <input type="text" placeholder="ABC (pvt) Ltd" name="cname"><br><br>
 <label>Company Address:  </lable></br> 
@@ -68,7 +68,8 @@ Material details:<br>
 Select the materials and the supplies available<br><br><br>
      <p1>agreement details</p1><br>
 
-<input type="checkbox" > agree to the above mentioned coditions.<br>
+<input type="checkbox" class="inputStyle" id="checkbox" onclick="enableButton(submit)">Accept privacy policy and terms</br><br>	
+<input type="submit" value="submit" id="submitBtn" disabled>
 
 </form></center>
 
