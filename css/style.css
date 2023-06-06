@@ -3,6 +3,7 @@
 html {
     scroll-behavior: smooth;
     background-color:white;
+    
 }
 
 hr {
@@ -241,3 +242,7 @@ button {
   button:hover {
     box-shadow: inset 0px 0px 25px #1479EA;
   }
+
+  /* home */
+
+  

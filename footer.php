@@ -39,11 +39,13 @@
                 </button>
         </center>
             </ul>
-        <p> &emsp; &emsp;&emsp;&emsp;&emsp;&emsp; &emsp;&emsp;&emsp; &emsp;&emsp;&emsp; &emsp;&emsp; &emsp;&emsp; &emsp;&emsp; &emsp;&emsp;&emsp; &emsp;&emsp; &emsp;&emsp; &emsp;Help Center&emsp;&emsp;&emsp; &emsp;&emsp; &emsp;&emsp;Live Chat&emsp;&emsp; &emsp;&emsp;&emsp;&emsp;About WeeNet &nbsp;&emsp;&emsp; &emsp;&emsp; &nbsp;&emsp; Legal Imprint</p>
-        <p> &emsp; &emsp;&emsp;&emsp;&emsp;&emsp;&emsp; &emsp;&emsp; &emsp;&emsp;&emsp;&emsp; &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; &emsp;&emsp; &emsp;&emsp; &emsp;Security Center&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Email&emsp; &emsp; &emsp; &emsp;&emsp; &emsp; &emsp; &nbsp;Blogs &nbsp; &emsp; &emsp; &emsp;&emsp;&emsp; &emsp;&emsp; &nbsp;&emsp; Policies</p>
-        <p> &emsp; &emsp;&emsp;&emsp;&emsp;&emsp;&emsp; &emsp;&emsp; &emsp;&emsp;&emsp;&emsp; &emsp;&emsp;&emsp;&emsp; &emsp; &emsp;&emsp; &emsp;&emsp;&emsp;&emsp;&emsp; &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Phone&emsp; &emsp; &emsp;&emsp;&emsp;&emsp; &emsp; &nbsp;Careers &nbsp; &emsp; &emsp;&emsp;&emsp;&emsp; &emsp; &emsp; &nbsp;&emsp; Terms</p>
-        <p> &emsp;&emsp;&nbsp; &emsp;&emsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&emsp; &nbsp;&emsp; &nbsp;&emsp; &nbsp;&nbsp;&emsp;</p>
-            <center>
+        <center>    
+        <p>&emsp;Help Center&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; &emsp;&emsp;Live Chat&emsp;&emsp; &emsp;&emsp;&emsp;&emsp;About WeeNet &nbsp;&emsp;&emsp; &emsp;&emsp; &nbsp;&emsp; Legal Imprint</p>
+        <p>Security Center&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Email&emsp; &emsp; &emsp; &emsp;&emsp; &emsp; &emsp; &nbsp;Blogs &nbsp; &emsp; &emsp; &emsp;&emsp;&emsp; &emsp;&emsp;&emsp; Policies</p>
+        <p>&emsp;&emsp;Phone&emsp; &emsp; &emsp;&emsp;&emsp;&emsp; &emsp;&nbsp; &emsp;&emsp;&nbsp;Careers &nbsp; &emsp; &emsp;&emsp;&emsp;&emsp; &emsp;&nbsp;&emsp; Terms &nbsp; &emsp;&emsp;&emsp; &emsp;&emsp;&emsp; Become a Supplier</p>
+       
+        </center>
+           <center>
                 <hr>
                 <p>©
                     <script>
