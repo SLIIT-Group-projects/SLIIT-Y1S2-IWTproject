@@ -1,8 +1,8 @@
 /* coomon things for all pages */
-.container {
+/* .container {
   width: 100%;
   padding: 0 80px;
-}
+} */
 
 /* header */
 
@@ -149,8 +149,10 @@ button:hover {
 .abt_section1 {
   width: 100%;
   height: 452px;
+  background-image: url(../resources/aboutUs/background.jpeg);
   background-size: cover;
-  background-image: url(../resources/aboutUs/background.jpg);
+  background-repeat: no-repeat;
+  background-position-y: -100px;
 }
 .abt_sect1_container {
   padding: 0;
@@ -161,9 +163,9 @@ button:hover {
   align-items: center;
 }
 .abt_sect1_box1 {
-  width: 838px;
+  width: 770px;
   height: 176px;
-  font-size: 60px;
+  font-size: 80px;
   color: white;
   font-weight: bold;
   border-radius: 20px;
@@ -325,6 +327,9 @@ button:hover {
   border-radius: 10px;
   cursor: pointer;
 }
+.abt_sect4_btn::hover{
+  cursor: pointer;
+}
 /* changing button css */
 .abt_sect4_btn1 {
   background-color: rgb(89, 89, 231);
@@ -465,9 +470,11 @@ button:hover {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 200px;
+  height: 220px;
   width: 200px;
   background-color: #777;
+  gap: 10px;
+  border-radius: 20px;
 }
 .abt_sect5_box2_img_com{
   width: 130px;
@@ -476,5 +483,23 @@ button:hover {
   background-size: cover;
   background-position-x: center;
   border-radius: 10px;
+  
+}
+.abt_sect5_box2_img1{
   background-image: url(../resources/aboutUs/awardLogo1.png);
+}
+.abt_sect5_box2_img2{
+  background-image: url(../resources/aboutUs/award1.jpeg);
+}
+.abt_sect5_box2_img3{
+  background-image: url(../resources/aboutUs/award2.jpeg);
+}
+.abt_sect5_box2_img4{
+  background-image: url(../resources/aboutUs/award4.jpeg);
+}
+.abt_sect5_box2_para{
+  color: white;
+  width: 150px;
+  text-align: center;
+  font-weight: bold;
 }

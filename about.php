@@ -177,22 +177,22 @@
         <div class="abt_sect5_box2">
             <div class="abt_sect5_box2_prof">
                 <div class="abt_sect5_box2_img_com abt_sect5_box2_img1"></div>
-                <div class="abt_sect5_box2_para">paragrao of awards</div>
+                <div class="abt_sect5_box2_para">The best brand award in 2020</div>
             </div>
 
             <div class="abt_sect5_box2_prof">
                 <div class="abt_sect5_box2_img_com abt_sect5_box2_img2"></div>
-                <div class="abt_sect5_box2_para">paragraog of awards</div>
+                <div class="abt_sect5_box2_para">Best design of the year 2021</div>
             </div>
 
             <div class="abt_sect5_box2_prof">
                 <div class="abt_sect5_box2_img_com abt_sect5_box2_img3"></div>
-                <div class="abt_sect5_box2_para">paragraog of awards</div>
+                <div class="abt_sect5_box2_para">Best apperal exporting company of the yaer 2023  </div>
             </div>
 
             <div class="abt_sect5_box2_prof">
                 <div class="abt_sect5_box2_img_com abt_sect5_box2_img4"></div>
-                <div class="abt_sect5_box2_para">paragraog of awards</div>
+                <div class="abt_sect5_box2_para">Ace of Initiative award in 2023</div>
             </div>
         </div>
         </div>
