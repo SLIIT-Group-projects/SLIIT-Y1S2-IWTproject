@@ -520,6 +520,7 @@ button:hover {
   width: 500px;
   height: 600px;
   background-color: #c7c7c7;
+  border-radius: 20px;
 
   display: flex;
   flex-direction: column;
@@ -530,6 +531,7 @@ button:hover {
   width: 300px;
   height: 500px;
   background-color: #c7c7c7;
+  border-radius: 20px;
 }
 .pro_box1_heading{
   margin-top: 30px;
@@ -538,10 +540,11 @@ button:hover {
   font-weight: bold;
 }
 .pro_box1_image{
+  /* display: none; */
   margin-top: 30px;
   width: 150px;
   height: 150px;
-  background-image: url(../resources/profile/logo1.png);
+  /* background-image: url(../resources/profile/logo1.png); */
   background-size: cover;
 border-radius: 80px;
 }
