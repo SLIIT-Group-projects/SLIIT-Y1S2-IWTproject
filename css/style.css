@@ -503,3 +503,45 @@ button:hover {
   text-align: center;
   font-weight: bold;
 }
+
+/* profile page css - Daham */
+.container{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  background-image: url(../resources/profile/bg.jpg);
+  background-size: cover;
+  /* background-position-x: 50px; */
+}
+.pro_box1{
+  width: 500px;
+  height: 600px;
+  background-color: #c7c7c7;
+
+  display: flex;
+  flex-direction: column;
+  
+  align-items: center;
+}
+.pro_box2{
+  width: 300px;
+  height: 500px;
+  background-color: #c7c7c7;
+}
+.pro_box1_heading{
+  margin-top: 30px;
+  color: #0d0c22;
+  font-size: 35px;
+  font-weight: bold;
+}
+.pro_box1_image{
+  margin-top: 30px;
+  width: 150px;
+  height: 150px;
+  background-image: url(../resources/profile/logo1.png);
+  background-size: cover;
+border-radius: 80px;
+}
