@@ -12,7 +12,20 @@
 <!-- Including Header -->
 <?php include 'header.php';?>
 
+<style>
+    .item{
+        flex: 1;
+        height: 100%;
+        background-position: center;
+        background-size: cover;
+        background-repeat: none;
+        transition: flex 0.8s ease;
+    }
+    .item:hover {
+        flex: 7;
+    }
 
+</style>
 
 
 

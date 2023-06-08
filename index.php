@@ -32,12 +32,6 @@
         text-align: center;
     }
 
-    h2 {
-        color: black;
-        font-size: 21px;
-        font-weight: bold;
-        text-align: center;
-    }
     
     #container3 {
         text-align: right;
