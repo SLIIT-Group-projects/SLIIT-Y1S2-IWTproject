@@ -81,7 +81,6 @@
     <center>
         <ul class="menu1">
             <li class="menu"><a href="index.php" style="color: white;">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Home</a></li>
-
             <li class="menu"><a href="products.php" style="color: white;">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Our Products</a></li>
             <li class="menu"><a href="career.php" style="color: white;">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Vacancies</a></li>
             <li class="menu"><a href="contact.php" style="color: white;">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Contact Us</a></li>
