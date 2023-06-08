@@ -11,7 +11,7 @@
 
     #container1 {
         background-image: url("resources/events/event.jpg");
-		width: 1330px;
+		width: 1333px;
 		height: 800px;
 		background-size: cover;
 		background-position: center;
