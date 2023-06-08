@@ -12,23 +12,20 @@
         display: flex;
         flex-direction: column;
         gap: 10px;
-        background: linear-gradient(to right, grey, silver);
-        padding: 40px;
+        background: linear-gradient(lightpink , lightblue );
+        padding: 300px;
         border-radius: 10px;
 }
-
     .login {
-        font-size: 25px;
+        font-size: 40px;
         font-weight: bold;
         text-align: center;
         margin-bottom: 20px;
 }
-
     .flex {
         display: flex;
         flex-direction: column;
 }
-
     .login-button {
         margin-top: 25px;
         margin-bottom: 6px;
@@ -38,19 +35,16 @@
         font-size: 19px;
         font-weight: bold;
         color: grey;
-        background-color: white;
+        background-color: whitesmoke;
         cursor: pointer;
 }
-
     .login-button:hover {
-        box-shadow: 2px 2px 12px white;
+        box-shadow: 2px 2px 12px black;
 }
-
     .form label {
         margin-top: 20px;
         margin-bottom: 5px;
-}
-    
+}   
     .input {
         height: 30px;
         outline: none;
@@ -61,15 +55,12 @@
         font-size: 15px;
         box-shadow: 2px 2px 12px inset black;
 }
-
     .span:hover {
         font-weight: bold;
 }
-
     .color {
-        color: white;
+        color: black;
 }
-
     .align {
         text-align: center;
 }
@@ -85,10 +76,10 @@
 
 <form class="form">
     <div class="flex">
-        <div class="login color">Login</div>
-        <label class="color">Username:</label>
+        <div class="login color">WeeNet Login</div>
+        <label class="color"><h3>Username : </h3></label>
         <input type="text" class="input">
-        <label class="color">Password:</label>
+        <label class="color"><h3>Password : </h3></label>
         <input type="password" class="input"> 
         <center>
         <button class="login-button">Log-in</button>
@@ -104,7 +95,7 @@
 </form>
 
 
-
+<hr>
 
 <!--Including footer -->
 <?php include 'footer.php';?>

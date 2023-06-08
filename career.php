@@ -12,8 +12,12 @@
 <!-- Including Header -->
 <?php include 'header.php';?>
 
-<hr>
 
+
+
+
+
+<hr>
 
 <!--Including footer -->
 <?php include 'footer.php';?>

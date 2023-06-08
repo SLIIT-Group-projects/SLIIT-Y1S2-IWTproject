@@ -13,14 +13,23 @@
     .dropdown {
       display: none;
     }
-  </style>
+    .header1 {
+        background-image: url("resources/home/hdbkg.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    </style>
 </header>
 
 <body>
 
     <!-- header line-->
 
-    <div class="header">
+    <div class="header1">
+
         <!-- weenet logo-->
         <img src="resources/home/logopng.png" width="70px" height="60px" alt="WeeNet logo" class="logo">
         <!-- search bar-->
@@ -28,6 +37,8 @@
             <input type="text" name="search" placeholder="Search..." />
                 <button type="submit" class="custom-button">Search</button>
         </form>
+
+    
         <!-- wishlist heart -->
         <a href="index.php"><img src="resources/home/hedr/heart.png" width="30px" height="25px" alt="wishlist"></a>
         <!-- cart logo-->
@@ -47,7 +58,7 @@
                     </ul>
                 </div>
         </div>
-
+    </div>
 <!-- dropdown menu js-->
     
         <script>
@@ -65,19 +76,16 @@
             });
         </script>
 
-
-
-
-
-    </div>
+    
 
     <center>
         <ul class="menu1">
-            <li class="menu"><a href="index.php">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Home</a></li>
-            <li class="menu"><a href="products.php">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Our Products</a></li>
-            <li class="menu"><a href="career.php">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Vacancies</a></li>
-            <li class="menu"><a href="contact.php">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Contact Us</a></li>
-            <li class="menu"><a href="about.php">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;About Us</a></li>
+            <li class="menu"><a href="index.php" style="color: white;">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Home</a></li>
+
+            <li class="menu"><a href="products.php" style="color: white;">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Our Products</a></li>
+            <li class="menu"><a href="career.php" style="color: white;">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Vacancies</a></li>
+            <li class="menu"><a href="contact.php" style="color: white;">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Contact Us</a></li>
+            <li class="menu"><a href="about.php" style="color: white;">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;About Us</a></li>
         </ul>
     </center>
 
