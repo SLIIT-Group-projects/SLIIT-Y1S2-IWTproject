@@ -1,7 +1,12 @@
 <?php 
 include_once 'config.php';
-$dbname = "supllierreg";
+$dbname = "supplierreg";
+
 $conn = new mysqli($servername, $username, $password, $dbname);
+
+if ($conn->connect_error) {
+    die("Connection failed: " . $conn->connect_error);
+  }
 ?>
 
 <!DOCTYPE html>
@@ -30,17 +35,16 @@ $conn = new mysqli($servername, $username, $password, $dbname);
     $NIC = $_POST['NIC'];
     $Director_C_number = $_POST['Director_C_number'];
 
-    $sql="INSERT INTO supplierreg(Registered_name,Registration_number, Address, Contact_number,Email,Director_name,NIC,Director_C_number) 
-    VALUES(Registered_name,Registration_number, Address, Contact_number,Email,Director_name,NIC,Director_C_number)";
-	
-    if ($conn->query($sql) === TRUE) {
-        echo "New record created successfully";
-      } else {
-        echo "Error: " . $sql . "<br>" . $conn->error;
-      }
-      
-      $conn->close();
+    $sql = "INSERT INTO supplierreg (Registered_name, Registration_number, Address, Contact_number, Email, Director_name, NIC, Director_C_number) 
+        VALUES ('$Registered_name', '$Registration_number', '$Address', '$Contact_number', '$Email', '$Director_name', '$NIC', '$Director_C_number')";
 
+
+    if(mysqli_query($conn,$sql)){
+		echo "<script> alert('Record inserted successfully')</script>";
+		header("Location:index.php");
+	}else{
+		echo "<script> alert('Record not inserted successfully')</script>";
+	}
 ?>
 
 <hr>
