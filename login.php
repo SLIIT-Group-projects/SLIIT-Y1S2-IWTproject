@@ -11,17 +11,18 @@
 		.main {
 		  flex-direction: column;
 		  overflow: hidden;
-		  border-radius: 12px;
-		  box-shadow: 7px 7px 10px 3px #24004628;
-		  padding: 24px;
-		  color: #fff;
-		  text-align: center;
-		  background-image: url("resources/login/l1.jpg");
-          width: 1280px;
+		  background-image: url("resources/login/l6.jpg");
+		  width: 1285px;
 		  height: 800px;
 		  background-size: cover;
 		  background-position: center;
 		  background-repeat: no-repeat;
+		  border-radius: 12px;
+		  box-shadow: 7px 7px 10px 3px #24004628;
+		  padding: 24px;
+		  color: whitesmoke;
+		  text-align: center;
+
           
           /* Centering content */
           display: flex;
@@ -30,8 +31,8 @@
 		}
 
 		.label {
-		  margin: 10px 0;
-		  font-size: 2.5rem;
+		  margin: 10px 5;
+		  font-size: 3rem;
 		  font-weight: bold;
 		  cursor: pointer;
 		  transition: .5s ease-in-out;
@@ -41,7 +42,6 @@
 		  width: 80%;
 		  height: 20px;
 		  background: #e0dede;
-		  padding: 2px;
 		  border: none;
 		  outline: none;
 		  border-radius: 4px;
@@ -53,7 +53,7 @@
 		  height: 40px;
 		  margin-top: 2%;
 		  color: #fff;
-		  background: #573b8a;
+		  background: grey;
 		  font-size: 1rem;
 		  font-weight: bold;
 		  border: none;
