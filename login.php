@@ -17,7 +17,7 @@
 		  color: #fff;
 		  text-align: center;
 		  background-image: url("resources/login/l1.jpg");
-          width: 1200px;
+          width: 1280px;
 		  height: 800px;
 		  background-size: cover;
 		  background-position: center;

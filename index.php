@@ -10,7 +10,7 @@
     <style>
 
     #container {
-        background-image: url("resources/home/bkg2.jpg");
+        background-image: url("resources/home/pbck.jpg");
         background-size: cover;
         background-repeat: no-repeat;   
 }
@@ -26,7 +26,7 @@
     }
 
     h1 {
-        color: black;
+        color: whitesmoke;
         font-size: 18px;
         font-weight: bold;
         text-align: center;
@@ -53,13 +53,13 @@
         <div id="container4">
         <div>
             <a href="product.php">
-            <img src="resources/home/gmnt/f1.jpg" alt="fashion sample" width="650" height="500">
+            <img src="resources/home/gmnt/f1.jpg" alt="fashion sample" width="666.5" height="500">
             </a>
         </div>
 
         <div>
             <a href="product.php">
-            <img src="resources/home/gmnt/f4.jpg" alt="text" wwidth="650" height="500"> 
+            <img src="resources/home/gmnt/f4.jpg" alt="fashion sample" wwidth="665.5" height="500"> 
             </a>  
         </div>  
     </div>
@@ -67,25 +67,25 @@
     <div id="container5">
         <div>
             <a href="product.php">
-            <img src="resources/home/gmnt/f5.jpg" alt="fashion sample" width="650" height="500">
+            <img src="resources/home/gmnt/f5.jpg" alt="fashion sample" width="666.5" height="500">
             </a>
         </div>
 
         <div>
-            <img src="resources/home/gmnt/txt1.png" alt="text" width="650" height="500">   
+            <img src="resources/home/gmnt/txtnew.png" alt="text" width="666.5" height="500">   
         </div>  
     </div>
 
     <div id="container4">
         <div>
             <a href="product.php">
-            <img src="resources/home/gmnt/f6.jpg" alt="fashion sample" width="650" height="500">
+            <img src="resources/home/gmnt/f6.jpg" alt="fashion sample" width="666.5" height="500">
             </a>
         </div>
 
         <div>
             <a href="product.php">
-            <img src="resources/home/gmnt/f3.jpg" alt="text" wwidth="650" height="500">   
+            <img src="resources/home/gmnt/f3.jpg" alt="fashion sample" width="666.5" height="500">   
             </a>  
         </div> 
     </div>
@@ -93,13 +93,13 @@
     <div id="container6">
         <div>
             <a href="product.php">
-            <img src="resources/home/gmnt/f7.jpg" alt="fashion sample" width="650" height="500">
+            <img src="resources/home/gmnt/f7.jpg" alt="fashion sample" width="666.5" height="500">
             </a>
         </div>
 
         <div>
             <a href="product.php">
-            <img src="resources/home/gmnt/f8.jpg" alt="text" wwidth="650" height="500">   
+            <img src="resources/home/gmnt/f8.jpg" alt="fashion sample" width="666.5" height="500">   
             </a>  
         </div> 
     </div>
@@ -108,7 +108,7 @@
     <div id="container1">
         <div>
             <a href="https://goo.gl/maps/nK6vkMmeoY3gnSjp7">
-            <img src="resources/home/loc.png" alt="location" width="400" height="300">
+            <img src="resources/home/locn.png" alt="location" width="400" height="300">
             </a>
             <h1> Visit Us </h1>
             <h1> 10/224, Sesatha Garden, Kanda Pansala Road, </h1>
