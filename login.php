@@ -1,3 +1,10 @@
+<?php
+
+session_start ();
+
+?>
+
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -81,6 +88,7 @@
 	</style>
 </head>
 <body>
+
 	<!-- Including Header -->
 	<?php include 'header.php'; ?>
 

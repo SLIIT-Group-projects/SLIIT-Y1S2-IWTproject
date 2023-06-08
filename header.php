@@ -38,15 +38,15 @@
                 <button type="submit" class="custom-button">Search</button>
         </form>
 
-    
-        <!-- wishlist heart -->
-        <a href="index.php"><img src="resources/home/hedr/heartn.png" width="30px" height="25px" alt="wishlist"></a>
         <!-- cart logo-->
-        <a href="index.php"><img src="resources/home/fticons/cart.png" width="40px" height="43px" alt="cart"></a>
+        <a href="cart.php"><img src="resources/home/fticons/cart.png" width="40px" height="43px" alt="cart"></a>
         <!-- notification icon-->
-        <a href="index.php"><img src="resources/home/fticons/letter.png" width="40px" height="35px" alt="notifications"></a>
+        <a href="notification.php"><img src="resources/home/fticons/letter.png" width="40px" height="35px" alt="notifications"></a>
         <!-- profile logo-->
-        <a href="index.php"><img src="resources/home/fticons/profile.png" width="35px" height="35px" alt="profile"></a>
+        <a href="profile.php"><img src="resources/home/fticons/profile.png" width="35px" height="35px" alt="profile"></a>
+        <!-- login icon -->
+        <a href="login.php"><img src="resources/home/fticons/login.png" width="30px" height="25px" alt="wishlist"></a>
+        
         <!-- dropdown menu -->
         <div class="header-bar">
             <a href="#" class="logo"><img src="resources/home/fticons/dmenu.png" width="35px" height="35px" alt="dropdown"/></a>

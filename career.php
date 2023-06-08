@@ -6,13 +6,8 @@
 	<link rel="stylesheet" href="css/style.css">
     <!-- link js file -->
     <script src="js/script.js"></script>
-</head>
 
-<body>
-<!-- Including Header -->
-<?php include 'header.php';?>
-
-<style>
+    <style>
     .item{
         flex: 1;
         height: 100%;
@@ -26,6 +21,14 @@
     }
 
 </style>
+
+</head>
+
+<body>
+<!-- Including Header -->
+<?php include 'header.php';?>
+
+
 
 
 
