@@ -40,7 +40,7 @@
 
     
         <!-- wishlist heart -->
-        <a href="index.php"><img src="resources/home/hedr/heart.png" width="30px" height="25px" alt="wishlist"></a>
+        <a href="index.php"><img src="resources/home/hedr/heartn.png" width="30px" height="25px" alt="wishlist"></a>
         <!-- cart logo-->
         <a href="index.php"><img src="resources/home/fticons/cart.png" width="40px" height="43px" alt="cart"></a>
         <!-- notification icon-->

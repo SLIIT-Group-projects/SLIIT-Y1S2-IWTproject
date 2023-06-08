@@ -173,7 +173,7 @@ li.menu {
 
 li af {
 	display:block;
-	color:grey;
+	color:rgb(34, 34, 34);
 	text-align:center;
 	padding:10px 16px;
 	text-decoration:none;
@@ -181,7 +181,7 @@ li af {
 
 footer p { 
     font-size: 14px;
-    color: #555;
+    color: #2b2828;
 }   
 button {
     width: 10em;
@@ -191,7 +191,7 @@ button {
     outline: none;
     background-color: transparent;
     transition: 1s;
-    border-radius: 0.4em;
+    border-radius: 0.5em;
     font-size: 16px;
     font-weight: bold;
   }
@@ -228,6 +228,6 @@ button {
 
   
 
-  /* home */
+
 
   
