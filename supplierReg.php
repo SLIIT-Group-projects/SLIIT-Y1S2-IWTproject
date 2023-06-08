@@ -1,3 +1,6 @@
+<?php 
+include_once 'config.php';
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -47,29 +50,33 @@
 ?>
 
 <h1><center>Supplier Registration</center></br></h1>
-<form method="POST" action="#"><center>
-<h4>
+<form method="POST" action="submitSupplierReg.php"><center>
+<
+
+
 <label>Company Registerd Name:</lable></br> 
-<input type="text" placeholder="ABC (pvt) Ltd" name="cname"><br><br>
+<input type="text" placeholder="ABC (pvt) Ltd" name="Registered_name"><br><br>
+<label>Company registration Number</label></br> 
+<input type="text" placeholder="123456" name="Registration_number"></br><br>
 <label>Company Address:  </lable></br> 
-<textarea name="address" placeholder="6th lane, colombo 11" cols rows=5></textarea><br><br>
+<textarea name="Address" placeholder="6th lane, colombo 11" cols rows=5></textarea><br><br>
 <label>Contact Number:</lable><br>
-<input type="number" placeholder="0711497951"  pattern="[0-9]{10}"><br><br>
+<input type="text" placeholder="0711497951" name="Contact_number" pattern="[0-9]{10}"><br><br>
 <label>Email adress:</lable><br>
-<input type="email" name="email" placeholder="ABC@gmail.com"  pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$"><br><br>
+<input type="email" name="Email" placeholder="ABC@gmail.com"  pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$"><br><br>
 Company director details: <br>
 <label>name:</lable><br>
-<input type="text" placeholder="Kamal Perera" name="Dname"><br><br>
+<input type="text" placeholder="Kamal Perera" name="Director_name"><br><br>
 <label>NIC No:</lable><br>
 <input type="text" placeholder="200253402335" name="NIC"><br><br>
 <label>Contact Number:</lable><br>
-<input type="number" placeholder="071258258" name="DContactNo"><br><br>
+<input type="text" placeholder="071258258" name="Director_C_number"><br><br>
 Material details:<br>
 Select the materials and the supplies available<br><br><br>
      <p1>agreement details</p1><br>
 
-<input type="checkbox" class="inputStyle" id="checkbox" onclick="enableButton(submit)">Accept privacy policy and terms</br><br>	
-<input type="submit" value="submit" id="submitBtn" disabled>
+<input type="checkbox" class="inputStyle" id="checkbox" >Accept privacy policy and terms</br><br>	
+<input type="submit" value="submit" id="submitBtn">
 
 </form></center>
 
