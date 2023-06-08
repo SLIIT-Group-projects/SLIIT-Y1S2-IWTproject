@@ -14,7 +14,7 @@
       display: none;
     }
     .header1 {
-        background-image: url("resources/home/hdbkg.jpg");
+        background-image: url("resources/home/pbkh1.jpg");
         background-size: cover;
         background-repeat: no-repeat;
         display: flex;

@@ -13,7 +13,7 @@
 
     <style>
   .my-footer {
-    background-image: url("resources/home/bkg3.jpg");
+    background-image: url("resources/home/pbkh1.jpg");
     background-size: cover;
     background-repeat: no-repeat;
   }
@@ -25,17 +25,8 @@
     background-color: transparent;
   }
 
-  li.menu {
-    float: left;
-  }
 
-  li.menu a1 {
-    display: block;
-    color: black;
-    text-align: center;
-    padding: 10px 16px;
-    text-decoration: none;
-  }
+
   .menu2 {
         display: flex;
         justify-content: center;
@@ -53,22 +44,22 @@
             <ul class="menu2">
                 <li class="menu">
                     <button>
-                        <a href="help.php" class="button">Help</a>
+                        <af href="help.php" class="button">Help</af>
                     </button>
                 </li>
                 <li class="menu">
                     <button>
-                        <a href="contact.php" class="button">Contact Us</a>
+                        <af href="contact.php" class="button">Contact Us</af>
                     </button>
                 </li>
                 <li class="menu">
                     <button>
-                        <a href="about.php" class="button">About Us</a>
+                        <af href="about.php" class="button">About Us</af>
                     </button>
                 </li>
                 <li class="menu">
                     <button>
-                        <a href="privacy.php" class="button">Privacy</a>
+                        <af href="privacy.php" class="button">Privacy</af>
                     </button>
                 </li>
             </ul>
