@@ -4,6 +4,6 @@
         die("Connection error".$conn->connect_error);
 
     }else{
-        echo "connection success";
+       
     }
 ?>
