@@ -1,3 +1,6 @@
+<?php
+session_start();
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -8,13 +11,14 @@
 </head>
 
 <body>
+
     <!-- Including Header -->
     <?php include 'header.php'; ?>
     <?php include 'connection/Dahamconfig.php'; ?>
 
 
     <div class="prof_section1">
-        <div class="pro_box" >
+        <div class="pro_box">
 
             <div class="pro_box1_upper">
                 <div class="pro_box1_heading">Profile</div>
@@ -47,26 +51,31 @@
 
             </div>
             <!-- duplicate edit section -->
-            <div class="pro_box1_lower pro_box1_duplicate" id="pro_box2">
-                <div class="pro_box1_duplicate_sec1">
-                    <div class="pro_box1_duplicate_sec1">update name :</div>
-                    <input type="text" class="pro_box1_duplicate_box">
-                </div>
-                <div class="pro_box1_duplicate_sec2">
-                    <div class="pro_box1_duplicate_sec1">update address :</div>
-                    <input type="text" class="pro_box1_duplicate_box">
-                </div>
-                <div class="pro_box1_duplicate_sec3">
-                    <div class="pro_box1_duplicate_sec1">update email :</div>
-                    <input type="text" class="pro_box1_duplicate_box">
-                </div>
-                <div class="pro_box1_duplicate_sec4">
-                    <div class="pro_box1_duplicate_sec1">update number :</div>
-                    <input type="text" class="pro_box1_duplicate_box">
+            <form action="updateProfile.php" method="POST">
+                <div class="pro_box1_lower pro_box1_duplicate" id="pro_box2">
+                    <div class="pro_box1_duplicate_sec1">
+                        <div class="pro_box1_duplicate_sec1">update name :</div>
+                        <input type="text" class="pro_box1_duplicate_box">
+                    </div>
+                    <div class="pro_box1_duplicate_sec2">
+                        <div class="pro_box1_duplicate_sec1">update address :</div>
+                        <input type="text" class="pro_box1_duplicate_box">
+                    </div>
+                    <div class="pro_box1_duplicate_sec3">
+                        <div class="pro_box1_duplicate_sec1">update email :</div>
+                        <input type="text" class="pro_box1_duplicate_box">
+                    </div>
+                    <div class="pro_box1_duplicate_sec4">
+                        <div class="pro_box1_duplicate_sec1">update number :</div>
+                        <input type="text" class="pro_box1_duplicate_box">
 
+                    </div>
+                    <div class="pro_box1_duplicate_btn">
+                        <input type="submit" class="pro_box1_lower_edit pro_box1_duplicate_upbtn" value=" Update " name="update">
+                        <input type="button" class="pro_box1_lower_edit pro_box1_duplicate_pbtn" value=" profile " name="pro_edit" onclick="profileedit('pro_box1');">
+                    </div>
                 </div>
-                <input type="button" class="pro_box1_lower_edit pro_box1_duplicate_btn" value=" profile " name="pro_edit" onclick="profileedit('pro_box1');">
-            </div>
+            </form>
 
 
         </div>
