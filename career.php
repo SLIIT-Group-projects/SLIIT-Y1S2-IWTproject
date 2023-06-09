@@ -31,6 +31,10 @@
         opacity: 0.8;
     }
 
+    #container1 div:hover img {
+            filter: brightness(60%);
+        }
+
     ul.menu1{
 	    list-style-type:none;
 	    background-color: #123142;
@@ -59,20 +63,27 @@
     }
  
 
-    li a{
-	    display:block;
-	    text-align:relative;
-	    padding:10px 16px;
-	    text-decoration:none;
+    #container2 {
+        background-image: url("resources/home/pbkh1.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;  
+         
+    }
+    #container3 {
+        display: flex;  
     }
 
-    li a:hover{
-	    background-color:rgb(89, 184, 187);
+    #container4 {
+        flex-direction: column; 
+        margin-left: 5px;
     }
 
-    li.menu {
-        float:left;
+    
+    h4 {
+        margin-left: 12px;
     }
+
+    
 
 	</style>
 </head>
@@ -130,13 +141,47 @@
 
 
     <center>
-        <ul class="menu1">
-            <li class="menu"><a href="index.php" style="color: white;"> &emsp;&emsp;&emsp; &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Our Vision </a></li>
-            <li class="menu"><a href="products.php" style="color: white;"> &emsp;&emsp;&emsp; &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Hiring Process </a></li>
-            <li class="menu"><a href="career.php" style="color: white;"> &emsp;&emsp;&emsp; &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Live Your Mission </a></li>
-            <li class="menu"><a href="contact.php" style="color: white;"> &emsp;&emsp;&emsp; &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Jobs </a></li>
-        </ul>
+        <h1 style="color: grey;">Welcome to our Vacancy page at WeeNet Garments!</h1>
     </center>
+ 
+    <div id="container2">
+
+        <div id="container3">
+        
+            <img src="resources/career/text1.png" width="460" height="300">
+
+            <img src="resources/career/c1.png" width="460" height="300" style="border-radius: 10px; margin-top: 10px; margin-bottom: 10px; margin-left: -4px;">
+
+            <img src="resources/career/text2.png" width="460" height="300" >
+
+            <div id="container4">
+                <img src="resources/career/c22.png" width="130" height="143" style="border-radius: 10px; margin-top: 10px; margin-bottom: 10px; margin-right: 2px;">
+                <img src="resources/career/c23.png" width="130" height="143" style="border-radius: 10px; margin-bottom: 10px; margin-right: 2px;">
+            </div>
+            <div id="container4">
+                <img src="resources/career/c24.png" width="130" height="143" style="border-radius: 10px; margin-top: 10px; margin-bottom: 10px; margin-right: 2px; margin-left: -8px;">
+                <img src="resources/career/c25.png" width="130" height="143" style="border-radius: 10px; margin-bottom: 10px; margin-right: 2px; margin-left: -8px;">
+            </div>
+
+        </div> 
+        
+        <div id="container3">
+        <img src="resources/career/c27.png" width="470" height="300" style="border-radius: 10px; margin-top: 10px; margin-bottom: 10px; margin-left: 10px;">
+        <img src="resources/career/c26.png" width="470" height="300" style="border-radius: 10px; margin-top: 10px; margin-bottom: 10px; margin-left: 10px;" >
+        <img src="resources/career/c21.png" width="470" height="300" style="border-radius: 10px; margin-top: 10px; margin-bottom: 10px; margin-left: 10px; margin-right: 10px;">
+
+        </div>
+
+    </div>
+
+        <center>
+            <h1 style="color: grey;">Available Vacancies </h1>
+
+            <h3 style="color: grey;">Apologies, but no vacancies are currently available. Please check back later for updates.</h3>
+        </center>
+
+
+
 
 	<hr>
 
