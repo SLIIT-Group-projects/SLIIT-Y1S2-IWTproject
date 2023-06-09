@@ -20,3 +20,15 @@ function sectionSwitch(clcikbtn,event){
     }
 
 }
+
+// profile page script
+
+function profileedit(clcikbtn){
+    // for (let index =1; index<=2; index++){
+    // document.getElementById("pro_box"+index).style.display="none";
+    // }
+    document.getElementById("pro_box1").style.display="none";
+    document.getElementById("pro_box2").style.display="none";
+
+    document.getElementById(clcikbtn).style.display="block";
+}
