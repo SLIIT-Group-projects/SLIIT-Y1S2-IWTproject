@@ -1,7 +1,20 @@
+<?php 
+session_start();
+include_once 'config.php';
+$dbname = "supplierreg";
+
+$conn = new mysqli($servername, $username, $password, $dbname);
+
+if ($conn->connect_error) {
+    die("Connection failed: " . $conn->connect_error);
+  }
+
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
-	<title>WeeNet</title>
+	<title>Our products</title>
     <!-- link css file -->
 	<link rel="stylesheet" href="css/style.css">
     <!-- link js file -->
@@ -34,9 +47,31 @@
 <body>
 <!-- Including Header -->
 <?php include 'header.php';?>
-<h1>Our Products</h1>
-<h3>Activewear Women</h3>
-
+<div class="container" style="width: 65%">
+        <h2>Shopping Cart</h2>
+        <?php
+            $query = "select * from product order by id asc";
+            $result = mysqli_query($connection,$query);
+            if(mysqli_num_rows($result)>0){
+                while($row = mysqli_fetch_array($result)){
+                    ?>
+                    <div class="col-md-3" style="float: left;">
+                        <form method="post" action="index.php?action=add&id=<?php echo $row["id"];?>">
+                            <div class="product">
+                                <img src="<?php echo $row["image"];?>" width="190px" height="200px" class="img-responsive">
+                                <h5 class="text-info"><?php echo $row["description"];?></h5>
+                                <h5 class="text-danger"><?php echo $row["price"];?></h5>
+                                <input type="text" name="quantity" class="form-control" value="1">
+                                <input type="hidden" name="hidden_name" value="<?php echo $row["description"];?>">
+                                <input type="hidden" name="hidden_price" value="<?php echo $row["price"];?>">
+                                <input type="submit" name="add" style="margin-top: 5px;" class="btn btn-success" value="Add to cart">
+                            </div>
+                        </form>
+                    </div>
+        <?php
+                }
+            }
+        ?>
 <div id="container1">
 <div id="container2">
                     <div><img id='container3' src="resources/product1.jpeg " style="hover:">
