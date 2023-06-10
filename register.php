@@ -145,7 +145,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
   $password = $_POST['password'];
   $confirm_password = $_POST['confirm_password'];
 
-  $sql = "INSERT INTO regcustomer (firstname, lastname, username, email, address, dob, contact, nic, password)
+  $sql = "INSERT INTO customers (firstname, lastname, username, email, address, dob, contact, nic, password)
         VALUES ('$firstname', '$lastname', '$username', '$email', '$address', '$dob', '$contact', '$nic','$password')";
 	$result=$conn->query($sql);
 

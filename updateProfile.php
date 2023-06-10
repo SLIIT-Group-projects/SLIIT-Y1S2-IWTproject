@@ -10,7 +10,7 @@
     if(!empty($Uname)){
         echo "name updated";
         echo $_SESSION['user_id'];
-        $sql="UPDATE Customers
+        $sql="UPDATE customers
         SET `username`='{$Uname}'
         WHERE nic='{$_SESSION['user_id']}'";
 
@@ -18,14 +18,14 @@
     }
     if(!empty($Uaddress)){
         echo "adadada";
-        $sql="UPDATE Customers
+        $sql="UPDATE customers
         SET `address`='{$Uaddress}'
         WHERE nic='{$_SESSION['user_id']}'";
 
     $result = $conn->query($sql);
     }
     if(!empty($Ucontact)){
-        $sql="UPDATE Customers
+        $sql="UPDATE customers
         SET `contact`='{$Ucontact}'
         WHERE nic='{$_SESSION['user_id']}'";
          $result = $conn->query($sql);
