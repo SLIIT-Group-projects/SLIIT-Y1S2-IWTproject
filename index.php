@@ -76,7 +76,7 @@ session_start ();
         </div>
 
         <div>
-            <img src="resources/home/gmnt/txtnew.png" alt="text" width="666.5" height="500">   
+            <img src="resources/home/gmnt/txtnew1.png" alt="text" width="666.5" height="500">   
         </div>  
     </div>
 

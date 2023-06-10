@@ -1,5 +1,5 @@
 <?php
-session_start();
+// session_start();
 
 // Check if the user is already logged in and redirect to event.php
 // if (isset($_SESSION['user_id'])) {
@@ -35,6 +35,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $error_message = "Invalid email or password";
     }
 }
+
+
 ?>
 
 <!DOCTYPE html>

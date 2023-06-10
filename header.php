@@ -1,3 +1,6 @@
+<!-- <?php
+session_start ();
+?> -->
 <!-- Header file -->
 <html>
 <header>
@@ -45,7 +48,7 @@
         <!-- profile logo-->
         <a href="profile.php"><img src="resources/home/fticons/profile.png" width="35px" height="35px" alt="profile"></a>
         <!-- login icon -->
-        <a href="login.php"><img src="resources/home/fticons/login.png" width="30px" height="25px" alt="wishlist"></a>
+        <a href="loginP.php"><img src="resources/home/fticons/login.png" width="30px" height="25px" alt="wishlist"></a>
         
         <!-- dropdown menu -->
         <div class="header-bar">
@@ -54,7 +57,7 @@
                     <ul>
                         <li><a href="orders.php">My Orders</a></li>
                         <li><a href="event.php">Events</a></li>
-                        <li><a href="login.php">Log out</a></li>
+                        <li><a href="logout.php">Log out</a></li>
                     </ul>
                 </div>
         </div>
