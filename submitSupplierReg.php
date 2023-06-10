@@ -42,7 +42,7 @@ if ($conn->connect_error) {
 
     if(mysqli_query($conn,$sql)){
 		echo "<script> alert('Record inserted successfully')</script>";
-		header("Location:index.php");
+		// header("Location:index.php");
 	}else{
 		echo "<script> alert('Record not inserted successfully')</script>";
 	}
