@@ -148,6 +148,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
   $sql = "INSERT INTO customers (firstname, lastname, username, email, address, dob, contact, nic, password)
         VALUES ('$firstname', '$lastname', '$username', '$email', '$address', '$dob', '$contact', '$nic','$password')";
 	$result=$conn->query($sql);
+  header('Location: index.php');
 
   // Perform form validation
   $errors = [];

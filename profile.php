@@ -27,7 +27,7 @@
             <div class="pro_box1_lower" id="pro_box1">
                 <!-- <div class="pro_box1"></div> -->
                 <?php
-                $sql = "SELECT * FROM supplierreg WHERE nic='{$_SESSION['user_id']}'";
+                $sql = "SELECT * FROM customers WHERE nic='{$_SESSION['user_id']}'";
                 $result = $conn->query($sql);
                 if ($result->num_rows > 0) {
                     while ($row = $result->fetch_assoc()) {
