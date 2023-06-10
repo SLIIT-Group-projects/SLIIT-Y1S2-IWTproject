@@ -9,7 +9,7 @@
 
 // Handle form submission
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-    $connection = new mysqli('localhost', 'root', '', 'iwts2');
+    $connection = new mysqli('localhost', 'root', '', 'iwtdb');
 
     if ($connection->connect_error) {
         die("Connection error: " . $connection->connect_error);
@@ -18,7 +18,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $email = $_POST['email'];
     $password = $_POST['password'];
 
-    $query = "SELECT * FROM users WHERE email = ? AND password = ? LIMIT 1";
+    $query = "SELECT * FROM customers WHERE email = ? AND password = ? LIMIT 1";
     $stmt = $connection->prepare($query);
     $stmt->bind_param('ss', $email, $password);
     $stmt->execute();
@@ -26,7 +26,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
     if ($result_set && $result_set->num_rows == 1) {
         $user = $result_set->fetch_assoc();
-        $_SESSION['user_id'] = $user['id'];
+        $_SESSION['user_id'] = $user['nic'];
         $_SESSION['email'] = $user['email'];
 
         header('Location: index.php');

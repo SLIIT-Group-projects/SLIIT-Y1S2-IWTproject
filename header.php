@@ -46,7 +46,7 @@ session_start ();
         <!-- notification icon-->
         <a href="notification.php"><img src="resources/home/fticons/letter.png" width="40px" height="35px" alt="notifications"></a>
         <!-- profile logo-->
-        <a href="profile.php"><img src="resources/home/fticons/profile.png" width="35px" height="35px" alt="profile"></a>
+        <a href="profileS.php"><img src="resources/home/fticons/profile.png" width="35px" height="35px" alt="profile"></a>
         <!-- login icon -->
         <a href="loginP.php"><img src="resources/home/fticons/login.png" width="30px" height="25px" alt="wishlist"></a>
         
