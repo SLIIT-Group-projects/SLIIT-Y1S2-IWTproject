@@ -557,6 +557,10 @@
   font-weight: bold;
   font-size: 17px;
 }
+.nprof_signIn_btn_sec_para{
+  color: white;
+  font-size: 27px;
+}
 .nprof_signIn_btn:hover{
   background-color: #0d0c22;
   color: white;

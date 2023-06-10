@@ -21,6 +21,7 @@ session_start();
         <body>
             <div class='nprof_section'>
                 <div class='nprof_btn'>
+                <label class='nprof_signIn_btn_sec_para'>First login, to see profile </label>
                     <a href='login.php'><input type='button' class='nprof_signIn_btn' value='Sign In'></a>
                     <div class='nprof_signup_btn_sec'>
                         <label class='nprof_signup_btn_sec_para'>If Don't have an account?</label></br>
