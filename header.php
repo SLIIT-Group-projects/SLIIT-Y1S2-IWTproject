@@ -8,7 +8,7 @@ session_start ();
     <!-- website icon -->
 	<link rel = "icon" href="resources/home/icon.jpg" type = "image/x-icon">
     <!-- link css file -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/styleshenal.css">
     <!-- link js file -->
     <script src="shenaljs.js"></script>
 
