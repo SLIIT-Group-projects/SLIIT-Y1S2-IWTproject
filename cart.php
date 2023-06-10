@@ -23,19 +23,26 @@ include_once 'connection/siluniconfig.php';
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>our products</title>
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
     <style>
         .product{
             border: 1px solid #eaeaec;
             margin: 2px 2px 8px 2px;
-            padding: 10px;
+            padding: 15px;
             text-align: center;
             background-color: #efefef;
         }
-        table,th,tr{
+        th,tr{
               text-align: center;
+              border-collapse: collapse;
+              padding: 15px;
+              border-bottom: 1px solid #ddd;
+              height:70px;
+              font-size:15px;
+  
         }
+        tr:hover {
+            background-color: #66afe9;}
+
         .title2{
             text-align: center;
             color: #66afe9;
@@ -90,7 +97,7 @@ include_once 'connection/siluniconfig.php';
                         <td><?php echo $value["product_quantity"];?></td>
                         <td><?php echo $value["product_price"];?></td>
                         <td><?php echo number_format($value["product_quantity"]*$value["product_price"],2);?></td>
-                        <td><a href="cart.php?action=delete&id=<?php echo $value["product_id"]; ?>"><span class="text-danger">Remove Item</span></a></td>
+                        <td><a href="cart.php?action=delete&id=<?php echo $value["product_id"]; ?>">Remove Item</span></a></td>
                 </tr>
                 <?php
                     $total = $total + ($value["product_quantity"]*$value["product_price"]);
@@ -107,7 +114,7 @@ include_once 'connection/siluniconfig.php';
             </table>
         </div>
 
-    </div>
+    </div></br>
     <div class="subbutton">
     <input type="submit" value="checkout" style="background-color: white; color: black;" onclick="showAlert()">
 	</div>
