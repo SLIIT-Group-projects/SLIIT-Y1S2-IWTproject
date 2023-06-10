@@ -6,14 +6,12 @@ session_start();
 <!DOCTYPE html>
 <html>
 <head>
-<<<<<<< Updated upstream
 	<title>WeeNet</title>
     <!-- link css file -->
 	<link rel="stylesheet" href="css/style.css">
     <!-- link js file -->
     <script src="js/script.js"></script>
     
-=======
 <style>
 /* supplier.css */
 
@@ -243,7 +241,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 }
 ?>
 
->>>>>>> Stashed changes
 
 
 

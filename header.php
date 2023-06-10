@@ -57,7 +57,7 @@ session_start ();
                     <ul>
                         <li><a href="orders.php">My Orders</a></li>
                         <li><a href="cart.php">Events</a></li>
-                        <li><a href="supplierReg.php">Become a supplier</a></li>
+                        <li><a href="supplierReg.php">Supplier</a></li>
                         <li><a href="logout.php">Log out</a></li>
                     </ul>
                 </div>
