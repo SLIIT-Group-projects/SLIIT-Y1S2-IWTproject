@@ -79,6 +79,7 @@ session_start();
 	#lastname {
 	width: 300px;
 	height: 40px;
+  
 		}
 
 	#username{
@@ -120,6 +121,10 @@ session_start();
 	width: 300px;
 	height: 40px;
 	}
+  .reg_text{
+    color: white;
+    font-size: 25px;
+  }
 
 
   </style>
@@ -185,47 +190,47 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 </head>
 <body style = "font-family: 'Comic Sans', cursive;">
  
-<div style="background-image: url('bgimg.jpg');">
+<div style="background-color: black; background-image: url('resources/supsel.png'); background-repeat: no-repeat; background-size: cover;">
 
 
 
-  <h1 style="color: black; font-family: 'Comic Sans', cursive;">Registration Form</h1>
+  <h1 style="font-size: 40px; color: white; font-family: 'Comic Sans', cursive;">Registration Form</h1>
 
   <form action="#" method="POST" >
 
 
-    <label for="firstname">First Name:</label>
+    <label class="reg_text"  for="firstname">First Name:</label>
     <input type="text" id="firstname" name="firstname" required>
 	<br><br>
 
 
-    <label for="lastname">Last Name:</label>
+    <label class="reg_text"  for="lastname">Last Name:</label>
     <input type="text" id="lastname" name="lastname" required><br><br>
 
-    <label for="username">Preferred User Name:</label>
+    <label class="reg_text"  for="username">Preferred User Name:</label>
     <input type="text" id="username" name="username" required><br><br>
 
    
 
-    <label for="email">Email Address:</label>
+    <label class="reg_text"  for="email">Email Address:</label>
     <input type="email" id="email" name="email" required><br><br>
 
-    <label for="address">Address:</label>
+    <label class="reg_text"  for="address">Address:</label>
     <textarea id="address" name="address" required></textarea><br><br>
 
-    <label for="dob">order date:</label>
+    <label class="reg_text"  for="dob">order date:</label>
     <input type="date" id="dob" name="dob" required><br><br>
 
-    <label for="contact">Contact Number:</label>
+    <label class="reg_text"  for="contact">Contact Number:</label>
     <input type="text" id="contact" name="contact" required><br><br>
 
-    <label for="nic">NIC Number:</label>
+    <label  class="reg_text" for="nic">NIC Number:</label>
     <input type="text" id="nic" name="nic" required><br><br>
 
-    <label for="password">Password:</label>
+    <label class="reg_text"  for="password">Password:</label>
     <input type="password" id="password" name="password" required><br><br>
 
-    <label for="confirm_password">Re-enter Password:</label>
+    <label class="reg_text"  for="confirm_password">Re-enter Password:</label>
     <input type="password" id="confirm_password" name="confirm_password" required><br><br>
 
     <input type="submit" value="Register">
