@@ -7,44 +7,70 @@
 	<link rel = "icon" href = "resources/home/icon.jpg"
 	type = "image/x-icon">
     <!-- link css file -->
-	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/styleshenal.css">
     <!-- link js file -->
     <script src="js/script.js"></script>
+
+    <style>
+  .my-footer {
+    background-image: url("resources/home/pbkh1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  ul.menu2 {
+    list-style-type: none;
+    overflow: hidden;
+    padding: 8px 16px;
+    background-color: transparent;
+  }
+
+
+
+  .menu2 {
+        display: flex;
+        justify-content: center;
+    }
+
+
+
+</style>
+
+
 </header>
 
 <body>
+<div class="my-footer">
     <footer>
-        <center>
             <ul class="menu2">
-                <button>
-                    <li class="menu">
-                        <a1 href="index.php" class="button">&emsp;&emsp;&nbsp;Help</a1>
-                    </li>
-                </button>
-                <button>
-                    <li class="menu">
-                        <a1 href="contact.php" class="button">&nbsp;&nbsp;&nbsp;Contact Us</a1>
-                    </li>
-                </button>
-                <button>
-                    <li class="menu">
-                        <a1 href="about.php" class="button">&nbsp;&emsp;About Us</a1>
-                    </li>
-                </button>
-                <button>
-                    <li class="menu">
-                        <a1 href="privacy.php" class="button">&nbsp;&nbsp;&emsp;Privacy</a>
-                    </li>
-                </button>
-        </center>
-        </ul>
-        <p> &emsp; &emsp;&emsp;&emsp;&emsp;&emsp; &emsp;&emsp;&emsp; &emsp;&emsp;&emsp; &emsp;&emsp; &emsp;&emsp; &emsp;&emsp; &emsp;&emsp;&emsp; &emsp;&emsp; &emsp;&emsp; &emsp;Help Center&emsp;&emsp;&emsp; &emsp;&emsp; &emsp;&emsp;Live Chat&emsp;&emsp; &emsp;&emsp;&emsp;&emsp;About WeeNet &nbsp;&emsp;&emsp; &emsp;&emsp; &nbsp;&emsp; Legal Imprint
-        <p> &emsp; &emsp;&emsp;&emsp;&emsp;&emsp;&emsp; &emsp;&emsp; &emsp;&emsp;&emsp;&emsp; &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; &emsp;&emsp; &emsp;&emsp; &emsp;Security Center&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Email&emsp; &emsp; &emsp; &emsp;&emsp; &emsp; &emsp; &nbsp;Blogs &nbsp; &emsp; &emsp; &emsp;&emsp;&emsp; &emsp;&emsp; &nbsp;&emsp; Policies
+                <li class="menu">
+                    <button>
+                        <af href="help.php" class="button">Help</af>
+                    </button>
+                </li>
+                <li class="menu">
+                    <button>
+                        <af href="contact.php" class="button">Contact Us</af>
+                    </button>
+                </li>
+                <li class="menu">
+                    <button>
+                        <af href="about.php" class="button">About Us</af>
+                    </button>
+                </li>
+                <li class="menu">
+                    <button>
+                        <af href="privacy.php" class="button">Privacy</af>
+                    </button>
+                </li>
+            </ul>
+            
+        <center>
 
-        <p> &emsp; &emsp;&emsp;&emsp;&emsp;&emsp;&emsp; &emsp;&emsp; &emsp;&emsp;&emsp;&emsp; &emsp;&emsp;&emsp;&emsp; &emsp; &emsp;&emsp; &emsp;&emsp;&emsp;&emsp;&emsp; &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Phone&emsp; &emsp; &emsp;&emsp;&emsp;&emsp; &emsp; &nbsp;Careers &nbsp; &emsp; &emsp;&emsp;&emsp;&emsp; &emsp; &emsp; &nbsp;&emsp; Terms
-        <p> &emsp;&emsp;&nbsp; &emsp;&emsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&emsp; &nbsp;&emsp; &nbsp;&emsp; &nbsp;&nbsp;&emsp;
-
-            <center>
+        <p>&emsp;Help Center&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; &emsp;&emsp;Live Chat&emsp;&emsp; &emsp;&emsp;&emsp;&emsp;About WeeNet &nbsp;&emsp;&emsp; &emsp;&emsp; &nbsp;&emsp; Legal Imprint</p>
+        <p>Security Center&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Email&emsp; &emsp; &emsp; &emsp;&emsp; &emsp; &emsp; &nbsp;Blogs &nbsp; &emsp; &emsp; &emsp;&emsp;&emsp; &emsp;&emsp;&emsp; Policies</p>
+        <p>&emsp;&emsp;Phone&emsp; &emsp; &emsp;&emsp;&emsp;&emsp; &emsp;&nbsp; &emsp;&emsp;&nbsp;Careers &nbsp; &emsp; &emsp;&emsp;&emsp;&emsp; &emsp;&nbsp;&emsp; Terms &nbsp; &emsp;&emsp;&emsp; &emsp;&emsp;&emsp; Become a Supplier</p>
+       
                 <hr>
                 <p>©
                     <script>
@@ -59,8 +85,9 @@
                     &emsp; <a href="https://www.youtube.com/user/SLIITtube"><img src="resources/home/fticons/youtube.png" alt="youtube account" style="width:15px;height:15px;"></a>
                     &emsp; <a href="https://www.linkedin.com/?trk=seo-authwall-base_nav-header-logo"><img src="resources/home/fticons/linkdin.png" alt="linkdin account" style="width:15px;height:15px;"></a>
                 </p>
-            </center>
+        </center>
     </footer>
+</div>    
 </body>
 
 </html>
