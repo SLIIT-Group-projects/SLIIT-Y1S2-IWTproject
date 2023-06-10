@@ -13,7 +13,7 @@
         WHERE nic='{$_SESSION['user_id']}'";
 
         $result = $conn->query($sql);
-        header('Location: profileS.php');
+
     }
     if(!empty($Uaddress)){
         $sql="UPDATE customers
@@ -21,15 +21,13 @@
         WHERE nic='{$_SESSION['user_id']}'";
 
         $result = $conn->query($sql);
-        header('Location: profileS.php');
     }
     if(!empty($Ucontact)){
         $sql="UPDATE customers
         SET `contact`='{$Ucontact}'
         WHERE nic='{$_SESSION['user_id']}'";
          $result = $conn->query($sql);
-         header('Location: profileS.php');
     }
-
+    header('Location: profileS.php');
     $conn->close();
 ?>
