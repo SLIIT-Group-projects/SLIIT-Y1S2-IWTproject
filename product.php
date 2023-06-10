@@ -34,7 +34,6 @@ include_once 'connection/siluniconfig.php';
         }
     }
 ?>
-?>
 
 <!DOCTYPE html>
 <html>

@@ -1,4 +1,3 @@
-cart.php
 <?php 
 include_once 'connection/siluniconfig.php';
 ?>
@@ -56,7 +55,7 @@ include_once 'connection/siluniconfig.php';
         table th{
             background-color: #efefef;
         }
-        
+
     </style>
 </head>
 <body>
