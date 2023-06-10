@@ -2,143 +2,70 @@
 
 session_start();
 ?>
+ <?php
+    $dbname = "iwtdb";
+    $conn = new mysqli("localhost", "root", "", $dbname);
+
+    if ($conn->connect_error) {
+        die("Connection failed: " . $conn->connect_error);
+  }
+?>
 
 <!DOCTYPE html>
 <html>
 <head>
   <title>Registration Page</title>
-  <!-- link css file -->
-	<link rel="stylesheet" href="css/style.css">
-    <!-- link js file -->
-    <script src="js/script.js"></script>
-
-  <script src="js/reg.js"></script>
+   <link rel="stylesheet" type="text/css" href="reg.css">
+  <script src="reg.js"></script>
   <style>
-  /* supplier.css */
-
+  /* You can add custom CSS styles here */
   body {
-    font-family: Arial, sans-serif;
-    background-color: #f2f2f2;
-  }
+      font-family: Arial, sans-serif;
+    }
 
-  h1 {
-    text-align: center;
-  }
+    form {
+      margin: 0 auto;
+      width: 400px;
+    }
 
-  form {
-    max-width: 500px;
-    margin: 0 auto;
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  }
+    label {
+      display: block;
+      margin-bottom: 5px;
+    }
 
-  label {
-    display: block;
-    margin-bottom: 10px;
-  }
+    input[type="text"],
+    input[type="email"],
+    textarea {
+      width: 100%;
+      padding: 5px;
+      margin-bottom: 10px;
+    }
 
-  input[type="submit"] {
-    background-color: #4caf50;
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    cursor: pointer;
-    border-radius: 5px;
-  }
+    input[type="date"] {
+      padding: 5px;
+      margin-bottom: 10px;
+    }
 
-  table {
-    width: 100%;
-    border-collapse: collapse;
-    margin-bottom: 20px;
-  }
+    textarea {
+      height: 80px;
+    }
 
-  table th, table td {
-    padding: 8px;
-    text-align: left;
-    border-bottom: 1px solid #ddd;
-  }
+    input[type="submit"] {
+      background-color: #4CAF50;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      cursor: pointer;
+    }
 
-  table th {
-    background-color: #f2f2f2;
-  }
+    input[type="submit"]:hover {
+      background-color: #45a049;
+    }
 
-  table td {
-    background-color: #fff;
-  }
-
-  select, input[type="number"], input[type="date"], input[type="checkbox"] {
-    width: 100%;
-    padding: 8px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-  }
-
-  input[type="checkbox"] {
-    width: auto;
-    margin-top: 10px;
-  }
-
-  input[type="submit"]:hover {
-    background-color: #45a049;
-  }
-
-  /* Center align the form */
-      form {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-      }
-
-      /* Style the labels */
-      label {
-        font-weight: bold;
-      }
-
-      /* Style the select dropdown */
-      select {
-        padding: 5px;
-        border: 1px solid #ccc;
-        border-radius: 4px;
-        font-size: 16px;
-        width: 200px;
-        margin-bottom: 10px;
-      }
-
-      /* Style the input fields */
-      input[type="number"],
-      input[type="date"] {
-        padding: 5px;
-        border: 1px solid #ccc;
-        border-radius: 4px;
-        font-size: 16px;
-        width: 200px;
-        margin-bottom: 10px;
-      }
-
-      /* Style the submit button */
-      input[type="submit"] {
-        padding: 10px 20px;
-        background-color: #4CAF50;
-        color: white;
-        border: none;
-        border-radius: 4px;
-        font-size: 16px;
-        cursor: pointer;
-      }
-
-      /* Center align the submit button */
-      #subbutton {
-        margin: 0 auto;
-      }
-
-  	h1{
-  	text-align: center;
-  	}
-
+    .error {
+      color: red;
+      font-style: italic;
+    }
 
   	h1{
 	text-align: center;
@@ -195,20 +122,16 @@ session_start();
 	}
 
 
-
-
-
-
-
   </style>
-
+  
+  
+ 
 	  <?php
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
   // Retrieve form data
   $firstname = $_POST['firstname'];
   $lastname = $_POST['lastname'];
   $username = $_POST['username'];
-  $gender = $_POST['gender'];
   $email = $_POST['email'];
   $address = $_POST['address'];
   $dob = $_POST['dob'];
@@ -216,6 +139,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
   $nic = $_POST['nic'];
   $password = $_POST['password'];
   $confirm_password = $_POST['confirm_password'];
+
+  $sql = "INSERT INTO regcustomer (firstname, lastname, username, email, address, dob, contact, nic, password)
+        VALUES ('$firstname', '$lastname', '$username', '$email', '$address', '$dob', '$contact', '$nic','$password')";
+	$result=$conn->query($sql);
 
   // Perform form validation
   $errors = [];
@@ -249,23 +176,22 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
   // Process the data...
 
   // Redirect to a thank you page or any desired destination
-  header("Location: thank_you.html");
+ // header("Location: #");
   exit();
 }
 ?>
 
 
-
 </head>
 <body style = "font-family: 'Comic Sans', cursive;">
-  <?php include 'header.php';?>
-<div style="background-image: url('css/bgimg.jpg');">
+ 
+<div style="background-image: url('bgimg.jpg');">
 
-<form action="process_registration.php" method="POST" >
+
 
   <h1 style="color: black; font-family: 'Comic Sans', cursive;">Registration Form</h1>
 
-  <form action="process_registration.php" method="POST" >
+  <form action="#" method="POST" >
 
 
     <label for="firstname">First Name:</label>
@@ -279,12 +205,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <label for="username">Preferred User Name:</label>
     <input type="text" id="username" name="username" required><br><br>
 
-    <!--label for="gender">Gender:</label>
-    <input type="checkbox" id="male" name="gender" value="male">
-
-    <!--label for="male">Male</label>
-    <input type="checkbox" id="female" name="gender" value="female">
-    <label for="female">Female</label><br><br-->
+   
 
     <label for="email">Email Address:</label>
     <input type="email" id="email" name="email" required><br><br>
@@ -292,7 +213,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <label for="address">Address:</label>
     <textarea id="address" name="address" required></textarea><br><br>
 
-    <label for="dob">Date of Birth:</label>
+    <label for="dob">order date:</label>
     <input type="date" id="dob" name="dob" required><br><br>
 
     <label for="contact">Contact Number:</label>
@@ -310,6 +231,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <input type="submit" value="Register">
   </form>
   </div>
-  <?php include 'footer.php';?>
+  
 </body>
 </html>
