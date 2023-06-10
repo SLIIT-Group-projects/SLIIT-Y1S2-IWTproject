@@ -12,8 +12,7 @@ include_once 'config.php';
     <script src="js/script.js"></script>
     <style>
     body {
-      fontsize 20px;
-   
+      font-size: 20px;
       padding: 20px;
     }    
     form {
@@ -28,7 +27,7 @@ include_once 'config.php';
         font-color:white;
         font:'Poppins';
     }
-    
+  
     input{
       background-color: white;
       color:black;
@@ -53,7 +52,7 @@ include_once 'config.php';
         background: rgb(0, 0, 0); /* Fallback color */
         background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
         color: #f1f1f1; /* Grey text */
-        width: 170%; /* Full width */
+        width: 173%; /* Full width */
         padding: 20px; /* Some padding */
        
       }
@@ -64,11 +63,9 @@ include_once 'config.php';
       align:left;
       size: cover;
       }
-      .container2{
-
-      }
-      input[type=text],textarea,select{
-      width: 100%;
+    
+      input[type=text],textarea,select, input[type=email]{
+      width: 75%;
       padding: 15px;
       margin: 5px 0 22px 0;
       display: inline-block;
@@ -84,6 +81,7 @@ include_once 'config.php';
       cursor: pointer;
       width: 100%;
       opacity: 0.9;
+      font-size:20px;
     }
     .submitbtn:hover {
       opacity:1;
@@ -91,7 +89,7 @@ include_once 'config.php';
 
     label{
       font-size:20px;
-      font: 'sans-serif':
+      font: 'sans-serif';
     }
     </style>
 </head>
@@ -126,11 +124,12 @@ include_once 'config.php';
 <label>Contact Number:</lable><br>
 <input type="text" placeholder="071258258" name="Director_C_number"><br>
 <h3>Material details:<br>
-Select the materials and the supplies available</h3>
+Select a materials available and type below</h3>
 <select name="material">
-  <option value="1"> Cotton </option>
-  <option value="2"> Silk </option>
-  <option value="3"> Wool </option></select></br></br>
+  <option value="mat1"> Cotton </option>
+  <option value="mat2"> Silk </option>
+  <option value="mat3"> Wool </option></select></br></br>
+</selection>
      agreement details</br>
 
 <input type="checkbox" class="inputStyle" id="checkbox">Accept privacy policy and terms</br><br>	

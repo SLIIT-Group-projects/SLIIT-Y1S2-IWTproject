@@ -1,6 +1,6 @@
 <?php 
 include_once 'config.php';
-$dbname = "supplierreg";
+$dbname = "iwtdb";
 
 $conn = new mysqli($servername, $username, $password, $dbname);
 
@@ -34,9 +34,10 @@ if ($conn->connect_error) {
     $Director_name = $_POST['Director_name'];
     $NIC = $_POST['NIC'];
     $Director_C_number = $_POST['Director_C_number'];
+    $material= $_POST['material'];
 
-    $sql = "INSERT INTO supplierreg (Registered_name, Registration_number, Address, Contact_number, Email, Director_name, NIC, Director_C_number) 
-        VALUES ('$Registered_name', '$Registration_number', '$Address', '$Contact_number', '$Email', '$Director_name', '$NIC', '$Director_C_number')";
+    $sql = "INSERT INTO supplierreg (Registered_name, Registration_number, Address, Contact_number, Email, Director_name, NIC, Director_C_number,material) 
+        VALUES ('$Registered_name', '$Registration_number', '$Address', '$Contact_number', '$Email', '$Director_name', '$NIC', '$Director_C_number','$material')";
 
 
     if(mysqli_query($conn,$sql)){
