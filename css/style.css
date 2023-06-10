@@ -38,18 +38,7 @@ li.menu {
 
 
 /* search bar*/
-.search {
-  input-line: #cccccc;
-  input-text-color: #808080;
-  input-text-hover-color: transparent;
-  input-border-color: #808080;
-  input-border-hover-color: #999999;
-  input-bg-color: #333333;
-  search-max-width: 250px;
-  search-min-width: 150px;
-  border-radius: 5px;
-  transition-cubic-bezier: 150ms cubic-bezier(0.4,0,0.2,1);
-}
+
 
 .search-box {
   max-width: var(--search-max-width);
