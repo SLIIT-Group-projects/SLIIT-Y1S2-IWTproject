@@ -5,7 +5,7 @@
     <title>WeeNet</title>
 
     <!-- link css file -->
-    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/DahamProfileAbout.css">
 </head>
 
 <body>

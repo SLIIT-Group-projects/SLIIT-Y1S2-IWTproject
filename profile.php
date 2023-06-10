@@ -4,7 +4,7 @@
 
 <head>
     <title>Document</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/DahamProfileAbout.css">
 
 </head>
 
@@ -52,7 +52,7 @@
             <form action="updateProfile.php" method="POST">
                 <div class="pro_box1_lower pro_box1_duplicate" id="pro_box2">
                     <div class="pro_box1_duplicate_sec1">
-                        <div class="pro_box1_duplicate_sec1">update name :</div>
+                        <div class="pro_box1_duplicate_sec1">update username:</div>
                         <input type="text" name="Uname" class="pro_box1_duplicate_box">
                     </div>
                     <div class="pro_box1_duplicate_sec2">

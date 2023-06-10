@@ -16,7 +16,7 @@ session_start();
         <html lang='en'>
         <head>
             <title>Document</title>
-            <link rel='stylesheet' href='css/style.css'>
+            <link rel='stylesheet' href='css/DahamProfileAbout.css'>
         </head>
         <body>
             <div class='nprof_section'>

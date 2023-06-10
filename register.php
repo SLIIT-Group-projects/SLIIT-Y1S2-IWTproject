@@ -7,6 +7,10 @@ session_start();
 <html>
 <head>
   <title>Registration Page</title>
+  <!-- link css file -->
+	<link rel="stylesheet" href="css/style.css">
+    <!-- link js file -->
+    <script src="js/script.js"></script>
 
   <script src="js/reg.js"></script>
   <style>
