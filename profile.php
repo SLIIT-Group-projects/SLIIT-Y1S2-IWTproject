@@ -1,6 +1,4 @@
-<?php
-session_start();
-?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -29,7 +27,7 @@ session_start();
             <div class="pro_box1_lower" id="pro_box1">
                 <!-- <div class="pro_box1"></div> -->
                 <?php
-                $sql = "SELECT * FROM customers";
+                $sql = "SELECT * FROM customers WHERE nic='{$_SESSION['user_id']}'";
                 $result = $conn->query($sql);
                 if ($result->num_rows > 0) {
                     while ($row = $result->fetch_assoc()) {
@@ -60,10 +58,6 @@ session_start();
                     <div class="pro_box1_duplicate_sec2">
                         <div class="pro_box1_duplicate_sec1">update address :</div>
                         <input type="text" name="Uaddress" class="pro_box1_duplicate_box">
-                    </div>
-                    <div class="pro_box1_duplicate_sec3">
-                        <div class="pro_box1_duplicate_sec1">update email :</div>
-                        <input type="text" name="Uemail" class="pro_box1_duplicate_box">
                     </div>
                     <div class="pro_box1_duplicate_sec4">
                         <div class="pro_box1_duplicate_sec1">update number :</div>

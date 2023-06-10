@@ -5,25 +5,30 @@
 <?php
     $Uname=$_POST["Uname"];
     $Uaddress=$_POST["Uaddress"];
-    $Uemail=$_POST["Uemail"];
     $Ucontact=$_POST["Ucontact"];
 
-    if(isset($name)){
-        $query="UPDATE Customers
-        SET `username`=".$Uaddress."
-        WHERE nic=".$_SESSION['user_id'];
-    }else if(isset($Uaddress)){
-        $query="UPDATE Customers
-        SET `address`=". $Uaddress."
-        WHERE nic=".$_SESSION['user_id'];
-    }else if(isset($Uemail)){
-        $query="UPDATE Customers
-        SET `email`=".$Uemail."
-        WHERE nic=".$_SESSION['user_id'];
-    }else if(isset($Ucontact)){
-        $query="UPDATE Customers
-        SET `contact`=".$Ucontact."
-        WHERE nic=".$_SESSION['user_id'];
+    if(!empty($Uname)){
+        echo "name updated";
+        echo $_SESSION['user_id'];
+        $sql="UPDATE Customers
+        SET `username`='{$Uname}'
+        WHERE nic='{$_SESSION['user_id']}'";
+
+    $result = $conn->query($sql);
+    }
+    if(!empty($Uaddress)){
+        echo "adadada";
+        $sql="UPDATE Customers
+        SET `address`='{$Uaddress}'
+        WHERE nic='{$_SESSION['user_id']}'";
+
+    $result = $conn->query($sql);
+    }
+    if(!empty($Ucontact)){
+        $sql="UPDATE Customers
+        SET `contact`='{$Ucontact}'
+        WHERE nic='{$_SESSION['user_id']}'";
+         $result = $conn->query($sql);
     }else{
         echo "error";
     }
