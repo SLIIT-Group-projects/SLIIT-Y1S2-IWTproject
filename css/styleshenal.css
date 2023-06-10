@@ -135,6 +135,7 @@ li.menu {
 .dropdown {
   display: none;
   position: relative; 
+  
 }
 
 .dropdown ul {
@@ -145,6 +146,7 @@ li.menu {
   padding: 0;
   margin: 0;
   list-style: none;
+  border-radius: 10px;
 }
 
 .dropdown ul li a {

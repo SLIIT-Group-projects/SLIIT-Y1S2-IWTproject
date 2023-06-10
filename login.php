@@ -2,13 +2,7 @@
     session_start();
 ?> -->
 <?php
-// session_start();
 
-// Check if the user is already logged in and redirect to event.php
-// if (isset($_SESSION['user_id'])) {
-//     header('Location: event.php');
-//     exit;
-// }
 
 // Handle form submission
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {

@@ -51,12 +51,13 @@ session_start ();
         <a href="loginP.php"><img src="resources/home/fticons/login.png" width="30px" height="25px" alt="wishlist"></a>
         
         <!-- dropdown menu -->
-        <div class="header-bar">
+        <div class="header-bar" style="margin-right:20px;">
             <a href="#" class="logo"><img src="resources/home/fticons/dmenu.png" width="35px" height="35px" alt="dropdown"/></a>
-                <div class="dropdown">
+                <div class="dropdown" >
                     <ul>
                         <li><a href="orders.php">My Orders</a></li>
-                        <li><a href="event.php">Events</a></li>
+                        <li><a href="cart.php">Events</a></li>
+                        <li><a href="supplierReg.php">Become a supplier</a></li>
                         <li><a href="logout.php">Log out</a></li>
                     </ul>
                 </div>
@@ -84,7 +85,7 @@ session_start ();
     <center>
         <ul class="menu1">
             <li class="menu"><a href="index.php" style="color: white;">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Home</a></li>
-            <li class="menu"><a href="products.php" style="color: white;">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Our Products</a></li>
+            <li class="menu"><a href="product.php" style="color: white;">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Our Products</a></li>
             <li class="menu"><a href="career.php" style="color: white;">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Vacancies</a></li>
             <li class="menu"><a href="contact.php" style="color: white;">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Contact Us</a></li>
             <li class="menu"><a href="about.php" style="color: white;">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;About Us</a></li>
