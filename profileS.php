@@ -5,9 +5,11 @@ session_start();
 
 <?php
     if(isset($_SESSION['user_id'])){
+
         include 'profile.php';
+
     }else{
-        echo "session not started";
+        
         include 'header.php';
         echo"
         <!DOCTYPE html>

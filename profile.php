@@ -29,15 +29,15 @@ session_start();
             <div class="pro_box1_lower" id="pro_box1">
                 <!-- <div class="pro_box1"></div> -->
                 <?php
-                $sql = "SELECT * FROM customer";
+                $sql = "SELECT * FROM customers";
                 $result = $conn->query($sql);
                 if ($result->num_rows > 0) {
                     while ($row = $result->fetch_assoc()) {
-                        echo "<div class='pro_box1_lower_com pro_box1_lower_ID'><i class='fa-solid fa-id-card-clip prof_icon'></i>Customer ID :  <label class='pro_box1_lower_data'>" . $row["nic"] . "</label></div>
-                <div class='pro_box1_lower_com pro_box1_lower_name'><i class='fa-solid fa-file-signature prof_icon'></i>Name :  <label class='pro_box1_lower_data'>" . $row["first_name"] . " " . $row["last_name"] . "</label></div>
+                        echo "<div class='pro_box1_lower_com pro_box1_lower_ID'><i class='fa-solid fa-id-card-clip prof_icon'></i>Customer Nic :  <label class='pro_box1_lower_data'>" . $row["nic"] . "</label></div>
+                <div class='pro_box1_lower_com pro_box1_lower_name'><i class='fa-solid fa-file-signature prof_icon'></i>user name :  <label class='pro_box1_lower_data'>" . $row["username"]. "</label></div>
                 <div class='pro_box1_lower_com pro_box1_lower_address'><i class='fa-solid fa-address-book prof_icon'></i>Address : <label class='pro_box1_lower_data'>" . $row["address"] . "</label></div>
                 <div class='pro_box1_lower_com pro_box1_lower_email'><i class='fa-solid fa-envelope prof_icon'></i>Email : <label class='pro_box1_lower_data'>" . $row["email"] . "</label></div>
-                <div class='pro_box1_lower_com pro_box1_lower_number'><i class='fa-solid fa-phone prof_icon'></i>Contact Number : <label class='pro_box1_lower_data'>" . $row["number"] . "</label></div>";
+                <div class='pro_box1_lower_com pro_box1_lower_number'><i class='fa-solid fa-phone prof_icon'></i>Contact Number : <label class='pro_box1_lower_data'>" . $row["contact"] . "</label></div>";
                     }
                 } else {
                     echo "no records";
@@ -55,19 +55,19 @@ session_start();
                 <div class="pro_box1_lower pro_box1_duplicate" id="pro_box2">
                     <div class="pro_box1_duplicate_sec1">
                         <div class="pro_box1_duplicate_sec1">update name :</div>
-                        <input type="text" class="pro_box1_duplicate_box">
+                        <input type="text" name="Uname" class="pro_box1_duplicate_box">
                     </div>
                     <div class="pro_box1_duplicate_sec2">
                         <div class="pro_box1_duplicate_sec1">update address :</div>
-                        <input type="text" class="pro_box1_duplicate_box">
+                        <input type="text" name="Uaddress" class="pro_box1_duplicate_box">
                     </div>
                     <div class="pro_box1_duplicate_sec3">
                         <div class="pro_box1_duplicate_sec1">update email :</div>
-                        <input type="text" class="pro_box1_duplicate_box">
+                        <input type="text" name="Uemail" class="pro_box1_duplicate_box">
                     </div>
                     <div class="pro_box1_duplicate_sec4">
                         <div class="pro_box1_duplicate_sec1">update number :</div>
-                        <input type="text" class="pro_box1_duplicate_box">
+                        <input type="text" name="Ucontact" class="pro_box1_duplicate_box">
 
                     </div>
                     <div class="pro_box1_duplicate_btn">
