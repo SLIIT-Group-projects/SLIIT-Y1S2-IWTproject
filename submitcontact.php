@@ -12,7 +12,7 @@
 $servername = "localhost";
 $username = "root";
 $password = "";
-$dbname = "contact";
+$dbname = "iwtdb";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
