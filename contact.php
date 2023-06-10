@@ -1,20 +1,24 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>WeeNet</title>
-	<!-- website icon -->
-    <!-- link css file -->
-	<link rel="stylesheet" href="css/style.css">
-    <!-- link js file -->
-    <script src="js/script.js"></script>
-</head>
 
-<body>
-<!-- Including Header -->
-<?php include 'header.php';?>
-
+        
+        <div class="inputBox">
+        <input type="text" required="required" name="email">
+        <span>Email</span></div>
+        
+        
+        <div class="inputBox">
+        <input type="text" required="required" name="message">
+        <span>Type Your message</span></div>
+        
+        <div class="inputBox">
+        <input type="submit" name="" value="Send">
+        </div>
+    
+        
+    </form>
+</div>
+</div>
+</section>
 <hr>
-
 
 <!--Including footer -->
 <?php include 'footer.php';?>
