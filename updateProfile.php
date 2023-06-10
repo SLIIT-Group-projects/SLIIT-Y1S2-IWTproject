@@ -8,29 +8,27 @@
     $Ucontact=$_POST["Ucontact"];
 
     if(!empty($Uname)){
-        echo "name updated";
-        echo $_SESSION['user_id'];
-        $sql="UPDATE Customers
+        $sql="UPDATE customers
         SET `username`='{$Uname}'
         WHERE nic='{$_SESSION['user_id']}'";
 
-    $result = $conn->query($sql);
+        $result = $conn->query($sql);
+        header('Location: profileS.php');
     }
     if(!empty($Uaddress)){
-        echo "adadada";
-        $sql="UPDATE Customers
+        $sql="UPDATE customers
         SET `address`='{$Uaddress}'
         WHERE nic='{$_SESSION['user_id']}'";
 
-    $result = $conn->query($sql);
+        $result = $conn->query($sql);
+        header('Location: profileS.php');
     }
     if(!empty($Ucontact)){
-        $sql="UPDATE Customers
+        $sql="UPDATE customers
         SET `contact`='{$Ucontact}'
         WHERE nic='{$_SESSION['user_id']}'";
          $result = $conn->query($sql);
-    }else{
-        echo "error";
+         header('Location: profileS.php');
     }
 
     $conn->close();

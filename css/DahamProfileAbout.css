@@ -448,7 +448,7 @@
 } */
 .pro_box1_lower_com{
   margin-top: 12px;
-  line-height: 60px;
+  line-height: 50px;
   color: white;
   font-family: Georgia;
   font-size: 22px;
@@ -556,6 +556,10 @@
   color: white;
   font-weight: bold;
   font-size: 17px;
+}
+.nprof_signIn_btn_sec_para{
+  color: white;
+  font-size: 27px;
 }
 .nprof_signIn_btn:hover{
   background-color: #0d0c22;
