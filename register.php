@@ -255,8 +255,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 ?>
 
 
+
 </head>
 <body style = "font-family: 'Comic Sans', cursive;">
+  <?php include 'header.php';?>
 <div style="background-image: url('css/bgimg.jpg');">
 
 <form action="process_registration.php" method="POST" >
@@ -308,5 +310,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <input type="submit" value="Register">
   </form>
   </div>
+  <?php include 'footer.php';?>
 </body>
 </html>
