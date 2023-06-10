@@ -5,7 +5,7 @@ include_once 'connection/siluniconfig.php';
 
 <?php
     session_start();
-    $db_name = "supplierreg";
+    $db_name = "iwtdb";
     $connection = new mysqli($servername, $username, $password, $db_name);
 
     if (!isset($_SESSION["shopping_cart"])) {
@@ -20,8 +20,6 @@ include_once 'connection/siluniconfig.php';
 	<!-- website icon -->
     <!-- link css file -->
 	<link rel="stylesheet" href="css/style.css">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>our products</title>
     <style>
         .product{
@@ -58,6 +56,7 @@ include_once 'connection/siluniconfig.php';
         table th{
             background-color: #efefef;
         }
+        
     </style>
 </head>
 <body>

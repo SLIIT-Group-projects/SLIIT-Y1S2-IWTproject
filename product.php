@@ -37,7 +37,7 @@ include_once 'connection/siluniconfig.php';
 ?>
 
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
     <title>Products</title>
     <style>
@@ -47,7 +47,9 @@ include_once 'connection/siluniconfig.php';
             padding: 15px;
             text-align: center;
             background-color: rgb(211, 211, 211);
-            width: 220px;
+            width: 250px;
+            height:550px;
+            
         }
         
         .title2{
@@ -65,15 +67,8 @@ include_once 'connection/siluniconfig.php';
            
         }
 
-        .center {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 400vh;
-    }
-
     .checkout-button {
-        background-color: grey;
+        background-color: blueviolet;
         padding: 10px 20px;
         border-radius: 5px;
         border: none;
@@ -85,34 +80,42 @@ include_once 'connection/siluniconfig.php';
     .checkout-button:hover {
         box-shadow: 0 0 5px black;
     }
+    .container4{
+        font-size:32px;
+    
 
-    .disStyles{
-        text-align:center;
-        font-size:50px;
     }
+    .text-info{
+        font-size:20px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        
+    }
+    
  </style>
 </head>
 <body>
         <!-- Including Header -->
 <?php include 'header.php'; ?>
-    <div class="container" style="width: 65%">
-        <h1>Our products</h1>
+<center><h1>Our products</h1>
+    <div class="container4" style="width: 65%">
+        
         <?php
             $query = "select * from product order by id asc";
             $result = mysqli_query($connection,$query);
             if(mysqli_num_rows($result)>0){
                 while($row = mysqli_fetch_array($result)){
                     ?>
-                    <div class="col-md-3" style="float: left;">
+                    <div style="float: left;">
                         <form method="post" action="product.php?action=add&id=<?php echo $row["id"];?>">
-                            <div class="product">
-                                <img src="<?php echo $row["image"];?>" width="210px" height="200px" class="img-responsive" style="margin-left: -10px;">
+                            <div class="product";>
+                                <img src="<?php echo $row["image"];?>" width="240px" height="400px" class="img-responsive" style="margin-left: -10px;">
                                 <h6 class="text-info"><?php echo $row["description"];?></h6>
-                                <h6 style="color: #106487;"><?php echo $row["price"];?></h6>
+                                <h6  class="text-info" style="color: #106487;"><?php echo $row["price"];?></h6>
                                 <input type="text" name="quantity" value="1">
-                                <input type="hidden" name="hidden_name" class="disStyles" value="<?php echo $row["description"];?>">
-                                <input type="hidden" name="hidden_price" class="disStyles" value="<?php echo $row["price"];?>">
-                                <input type="submit" name="add" style="margin-top: 5px; background-color: #106487;"  value="Add to cart">
+                                <input type="hidden" name="hidden_name"  value="<?php echo $row["description"];?>">
+                                <input type="hidden" name="hidden_price"  value="<?php echo $row["price"];?>" ">
+                                <input type="submit" name="add" style="margin-top: 2px; background-color: #106487;"  value="Add to cart">
                             </div>
                         </form>
                     </div>
@@ -128,6 +131,7 @@ include_once 'connection/siluniconfig.php';
         </form>
     </div>
 </form>
+        </center>
 
         
 
