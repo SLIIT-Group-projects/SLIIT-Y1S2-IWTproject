@@ -82,5 +82,6 @@ Maha Waskaduwa, Kalutara</p>
 	function showAlert() {
 		alert("sucessfully message send!");
     }
+    </script>
 </body>
 </html>
