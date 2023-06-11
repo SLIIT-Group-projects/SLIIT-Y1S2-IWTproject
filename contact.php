@@ -77,5 +77,10 @@ Maha Waskaduwa, Kalutara</p>
 
 <!--Including footer -->
 <?php include 'footer.php';?>
+
+<script>
+	function showAlert() {
+		alert("sucessfully message send!");
+    }
 </body>
 </html>
