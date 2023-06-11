@@ -38,7 +38,8 @@
                 <div class='pro_box1_lower_com pro_box1_lower_number'><i class='fa-solid fa-phone prof_icon'></i>Contact Number : <label class='pro_box1_lower_data'>" . $row["contact"] . "</label></div>";
                     }
                 } else {
-                    echo "no records";
+                    echo "<p style='color: white; font-size: 25px; text-align: center;'>cannot view or edit admin's data</p>";
+
                 }
 
                 $conn->close();

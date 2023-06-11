@@ -54,8 +54,8 @@ session_start ();
             <a href="#" class="logo"><img src="resources/home/fticons/dmenu.png" width="35px" height="35px" alt="dropdown"/></a>
                 <div class="dropdown" >
                     <ul>
-                        <li><a href="cart.php">Events</a></li>
-                        <li><a href="supplierReg.php">Supplier</a></li>
+                        <li><a href="event.php">Events</a></li>
+                        <li><a href="supplierReg.php">Register Supplier</a></li>
                         <li><a href="adlogin.php">Admin</a></li>
                         <li><a href="logout.php">Log out</a></li>
                     </ul>

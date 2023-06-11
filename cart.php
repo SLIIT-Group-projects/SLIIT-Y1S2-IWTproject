@@ -76,6 +76,7 @@ include_once 'connection/siluniconfig.php';
 ?>
        <div style="clear: both"></div>
         <h3 class="title2">Shopping Cart Details</h3>
+        <center>
         <div class="table-responsive">
             <table class="table table-bordered">
             <tr> 
@@ -111,11 +112,13 @@ include_once 'connection/siluniconfig.php';
                 }
                 ?>
             </table>
-        </div>
+        </div> </center>
 
     </div></br>
-    <div class="subbutton">
-    <input type="submit" value="checkout" style="background-color: white; color: black;" onclick="showAlert()">
+    <div class="subbutton"><center>
+    <input type="submit" value="checkout" style="background-color: #123142 ; padding: 10px; color: white;" onclick="showAlert()">
+
+            </center>
 	</div>
 
 	<script>
