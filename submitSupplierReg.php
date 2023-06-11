@@ -43,8 +43,7 @@ if ($conn->connect_error) {
 
     if(mysqli_query($conn,$sql)){
 		echo "<script> alert('Record inserted successfully')</script>";
-	   // header("Location:index.php");
-       echo '<img src="resources/events/supsub.jpg" style=" width:100%; height: 800px; " >';
+        echo '<img src="resources/events/supsub.jpg" style=" width:100%; height: 800px; " >';
 
 	}else{
 		echo "<script> alert('Record not inserted successfully')</script>";
