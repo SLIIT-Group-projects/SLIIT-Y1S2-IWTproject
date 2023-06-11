@@ -78,7 +78,7 @@ include_once 'connection/siluniconfig.php';
         <h3 class="title2">Shopping Cart Details</h3>
         <div class="table-responsive">
             <table class="table table-bordered">
-            <tr>
+            <tr> 
                 <th width="30%">Product Description</th>
                 <th width="10%">Quantity</th>
                 <th width="13%">Price Details</th>
@@ -89,8 +89,9 @@ include_once 'connection/siluniconfig.php';
                 if(!empty($_SESSION["shopping_cart"])){
                     $total=0;
                     foreach($_SESSION["shopping_cart"] as $key => $value){
+                        
                     ?>
-                <tr>
+                <tr>     
                         <td><?php echo $value["product_name"];?></td>
                         <td><?php echo $value["product_quantity"];?></td>
                         <td><?php echo $value["product_price"];?></td>

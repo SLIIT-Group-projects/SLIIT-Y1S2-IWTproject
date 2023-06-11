@@ -147,7 +147,7 @@
 <body>
     <?php include 'header.php'; ?>
     <div class="body1">
-        <div style="background-image: url('css/supsel.jpeg'); background-repeat: no-repeat; background-size: cover">
+        <div style="background-image: url('resources/bgimg.jpg'); background-repeat: no-repeat; background-size: cover">
             <form class="form" style="background-color: white;">
                 <h1>Supplier selection</h1>
             </form><br></br>
@@ -211,7 +211,6 @@
             }
             ?><br></br>
 
-
             <form style="background-color: white;">
                 <label for="supplierregNumber">Supplier registration number:</label>
                 <input type="text" id="supplierregNumber" name="supplierregNumber">
@@ -228,7 +227,7 @@
             </form><br></br>
 
             <center> <div class="subbutton" style="text-align: center;">
-          <input type="submit" value="Proceed" style="background-color: white; color: black; padding: 10px 20px; border: 1px solid #ccc; border-radius: 4px; font-size: 16px; cursor: pointer; border-color: red;">
+          <input type="submit" value="Proceed" onclick="showAlert()" style="background-color: white; color: black; padding: 10px 20px; border: 1px solid #ccc; border-radius: 4px; font-size: 16px; cursor: pointer; border-color: red;">
           </div></center>
 
             <script>

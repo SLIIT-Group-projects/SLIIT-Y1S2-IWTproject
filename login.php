@@ -126,9 +126,15 @@
             <form class="form" method="POST">
                 <input class="input" type="email" name="email" placeholder="Email" required="">
                 <input class="input" type="password" name="password" placeholder="Password" required="">
+                <a href="register.php" style="color: white; text-decoration: none;">Don't have an account? Register Now</a>
+
+              <br>
                 <button type="submit" class="form-button" name="submit">Log in</button>
             </form>
+
+            
         </div>
+        
     
         <hr>
     
