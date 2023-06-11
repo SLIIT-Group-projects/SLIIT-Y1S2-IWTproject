@@ -56,6 +56,7 @@ session_start ();
                     <ul>
                         <li><a href="cart.php">Events</a></li>
                         <li><a href="supplierReg.php">Supplier</a></li>
+                        <li><a href="adlogin.php">Admin</a></li>
                         <li><a href="logout.php">Log out</a></li>
                     </ul>
                 </div>
