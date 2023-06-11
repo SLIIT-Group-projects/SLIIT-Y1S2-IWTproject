@@ -1,5 +1,6 @@
 <?php 
 include_once 'connection/siluniconfig.php';
+session_start();
 $dbname = "iwtdb";
 
 $conn = new mysqli($servername, $username, $password, $dbname);
