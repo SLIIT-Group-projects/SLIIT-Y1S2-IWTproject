@@ -155,9 +155,9 @@
             <form class="form" style="background-color: white;" method="GET" action="supplier.php">
                 <label for="material">Choose material:</label>
                 <select id="material" name="material">
-                    <option value="cotton">cotton</option>
-                    <option value="silk">silk</option>
-                    <option value="wool">wool</option>
+                    <option value="mat1">cotton</option>
+                    <option value="mat2">silk</option>
+                    <option value="mat3">wool</option>
                 </select>
                 <input type="submit" value="OK" style="background-color: grey; color:white;">
             </form><br></br>
@@ -226,11 +226,6 @@
                 <input type="text" id="supplierregNumber" name="supplierregNumber">
             </form><br></br>
 
-            <form style="background-color: white;">
-                <label for="companyID">Company ID:</label>
-                <input type="text" id="companyID" name="companyID">
-            </form><br></br>
-
             <form style="background-color: white; ">
                 <label for="quantity">Quantity:</label>
                 <input type="text" id="quantity" name="quantity">
@@ -241,9 +236,9 @@
                 <input type="date" id="delivery-date" name="delivery-date">
             </form><br></br>
 
-            <div class="subbutton">
-                <input type="submit" value="Proceed" style="background-color: white; color: black;" onclick="showAlert()">
-            </div>
+            <center> <div class="subbutton" style="text-align: center;">
+          <input type="submit" value="Proceed" style="background-color: white; color: black; padding: 10px 20px; border: 1px solid #ccc; border-radius: 4px; font-size: 16px; cursor: pointer; border-color: red;">
+          </div></center>
 
             <script>
                 function showAlert() {
