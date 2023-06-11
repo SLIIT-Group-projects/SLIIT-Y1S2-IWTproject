@@ -67,7 +67,7 @@ include_once 'connection/siluniconfig.php';
         }
 
     .checkout-button {
-        background-color: blueviolet;
+        background-color: blue;
         padding: 10px 20px;
         border-radius: 5px;
         border: none;
@@ -81,9 +81,8 @@ include_once 'connection/siluniconfig.php';
     }
     .container4{
         font-size:32px;
-    
-
     }
+
     .text-info{
         font-size:20px;
         margin-top: 10px;

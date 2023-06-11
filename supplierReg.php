@@ -1,5 +1,6 @@
 <?php 
 include_once 'connection/siluniconfig.php';
+session_start();
 ?>
 <!DOCTYPE html>
 <html>
@@ -139,7 +140,7 @@ Select a materials available and type below</h3>
   <option value="mat2"> Silk </option>
   <option value="mat3"> Wool </option></select></br></br>
 </selection>
-     agreement details</br>
+
 
 <input type="checkbox" class="inputStyle" id="checkbox">Accept privacy policy and terms</br><br>  
 <input type="submit" value="submit" class="submitbtn">
