@@ -7,6 +7,11 @@
     <link rel="stylesheet" href="css/dinuristyle.css">
     <!-- link js file -->
     <script src="js/script.js"></script>
+    <script>
+	function showAlert() {
+		alert("sucessfully message send!");
+    }
+    </script>
 </head>
 
 <body>
@@ -65,7 +70,7 @@ Maha Waskaduwa, Kalutara</p>
         <span>Type Your message</span></div>
         
         <div class="inputBox">
-        <input type="submit" name="" value="Send">
+        <input type="submit" name="" value="Send" onclick="showAlert()">
         </div>
     
         
@@ -78,10 +83,6 @@ Maha Waskaduwa, Kalutara</p>
 <!--Including footer -->
 <?php include 'footer.php';?>
 
-<script>
-	function showAlert() {
-		alert("sucessfully message send!");
-    }
-    </script>
+
 </body>
 </html>
