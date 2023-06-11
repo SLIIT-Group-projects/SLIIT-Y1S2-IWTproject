@@ -47,22 +47,27 @@ session_start ();
         <a href="notification.php"><img src="resources/home/fticons/letter.png" width="40px" height="35px" alt="notifications"></a>
         <!-- profile logo-->
         <a href="profileS.php"><img src="resources/home/fticons/profile.png" width="35px" height="35px" alt="profile"></a>
-        <!-- login icon -->
-        <a href="loginP.php"><img src="resources/home/fticons/login.png" width="30px" height="25px" alt="wishlist"></a>
+
         
         <!-- dropdown menu -->
-        <div class="header-bar" style="margin-right:20px;">
+        <div class="header-bar">
             <a href="#" class="logo"><img src="resources/home/fticons/dmenu.png" width="35px" height="35px" alt="dropdown"/></a>
                 <div class="dropdown" >
                     <ul>
-                        <li><a href="orders.php">My Orders</a></li>
                         <li><a href="cart.php">Events</a></li>
                         <li><a href="supplierReg.php">Supplier</a></li>
                         <li><a href="logout.php">Log out</a></li>
                     </ul>
                 </div>
         </div>
+
+        <!-- login icon -->
+        <a href="loginP.php"><img src="resources/home/fticons/login.png" width="30px" height="25px" alt="wishlist"  style="margin-right:20px;" ></a>
+
     </div>
+
+    
+
 <!-- dropdown menu js-->
     
         <script>
