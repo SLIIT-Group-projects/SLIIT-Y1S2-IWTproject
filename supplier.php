@@ -211,7 +211,6 @@
             }
             ?><br></br>
 
-            
 
             <form style="background-color: white;">
                 <label for="supplierregNumber">Supplier registration number:</label>
