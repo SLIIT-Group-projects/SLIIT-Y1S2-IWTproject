@@ -211,15 +211,7 @@
             }
             ?><br></br>
 
-            <form style="background-color: white;">
-                <label for="supplier">Choose supplier:</label>
-                <select id="supplier" name="product">
-                    <option value="" selected hidden></option>
-                    <option value="supplier1">Option 1</option>
-                    <option value="supplier2">Option 2</option>
-                    <option value="supplier3">Option 3</option>
-                </select>
-            </form><br></br>
+            
 
             <form style="background-color: white;">
                 <label for="supplierregNumber">Supplier registration number:</label>
