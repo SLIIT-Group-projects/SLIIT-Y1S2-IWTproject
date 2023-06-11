@@ -16,6 +16,7 @@ include_once 'connection/siluniconfig.php';
                     'product_name' => $_POST["hidden_name"],
                     'product_price' => $_POST["hidden_price"],
                     'product_quantity' => $_POST["quantity"],
+                    
                 );
                 $_SESSION["shopping_cart"][$count] = $item_array;
                 echo '<script>window.location="product.php"</script>';
@@ -29,6 +30,7 @@ include_once 'connection/siluniconfig.php';
                 'product_name' => $_POST["hidden_name"],
                 'product_price' => $_POST["hidden_price"],
                 'product_quantity' => $_POST["quantity"],
+                
             );
             $_SESSION["shopping_cart"][0] = $item_array;
         }
@@ -67,13 +69,14 @@ include_once 'connection/siluniconfig.php';
         }
 
     .checkout-button {
-        background-color: blue;
+        background-color:#6096B4;
+        border:black;
         padding: 10px 20px;
         border-radius: 5px;
         border: none;
         box-shadow: none;
         transition: box-shadow 0.3s;
-        color: black;
+        color: white;
     }
 
     .checkout-button:hover {
@@ -96,7 +99,7 @@ include_once 'connection/siluniconfig.php';
         <!-- Including Header -->
 <?php include 'header.php'; ?>
 <center><h1>Our products</h1>
-    <div class="container4" style="width: 65%">
+    <div class="container4" style="width: 90%">
         
         <?php
             $query = "select * from product order by id asc";
@@ -120,8 +123,9 @@ include_once 'connection/siluniconfig.php';
              <?php  
             } }
             ?>
-            </br>
+            <br>
         <div class="text-center"> <!-- Added a container for center alignment -->
+        </br>
         <form>
             <a href="cart.php">
                 <input type="button" class="checkout-button" value="Exit shopping">
