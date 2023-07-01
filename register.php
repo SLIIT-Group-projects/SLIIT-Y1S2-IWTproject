@@ -18,7 +18,7 @@ session_start();
    <link rel="stylesheet" type="text/css" href="reg.css">
   <script src="reg.js"></script>
   <style>
-  /* You can add custom CSS styles here */
+  
   body {
       font-family: Arial, sans-serif;
     }
@@ -71,8 +71,8 @@ session_start();
 	text-align: center;
 	}
 	#firstname {
-  width: 300px; /* Adjust the width as per your preference */
-  height: 40px; /* Adjust the height as per your preference */
+  width: 300px; 
+  height: 40px; 
 }
 
 
@@ -150,11 +150,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 	$result=$conn->query($sql);
   header('Location: index.php');
 
-  // Perform form validation
   $errors = [];
-
-  // Add your form validation logic here
-  // For example, check if required fields are empty or if the password matches the confirm password
 
   if (empty($firstname)) {
     $errors[] = "First Name is required";
@@ -164,12 +160,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $errors[] = "Last Name is required";
   }
 
-  // Check if password and confirm password match
+  
   if ($password !== $confirm_password) {
     $errors[] = "Passwords do not match";
   }
 
-  // If there are errors, display them and stop further processing
   if (!empty($errors)) {
     foreach ($errors as $error) {
       echo $error . "<br>";
@@ -177,12 +172,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     exit();
   }
 
-  // If there are no errors, continue with further processing (e.g., storing data in database)
-
-  // Process the data...
-
-  // Redirect to a thank you page or any desired destination
- // header("Location: #");
   exit();
 }
 ?>
@@ -237,6 +226,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <input type="submit" value="Register">
   </form>
   </div>
+  
   
 </body>
 </html>
