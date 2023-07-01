@@ -208,7 +208,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <label class="reg_text"  for="address">Address:</label>
     <textarea id="address" name="address" required></textarea><br><br>
 
-    <label class="reg_text"  for="dob">order date:</label>
+    <label class="reg_text"  for="dob">Date of Birth:</label>
     <input type="date" id="dob" name="dob" required><br><br>
 
     <label class="reg_text"  for="contact">Contact Number:</label>
