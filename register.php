@@ -223,7 +223,15 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <label class="reg_text"  for="confirm_password">Re-enter Password:</label>
     <input type="password" id="confirm_password" name="confirm_password" required><br><br>
 
-    <input type="submit" value="Register">
+    <input type="submit" value="Register" on-click="submit">
+
+    <script>
+      function submit(){
+        alert("registered successfull");
+        window.location="index.php";
+      }
+
+      </script>
   </form>
   </div>
   
