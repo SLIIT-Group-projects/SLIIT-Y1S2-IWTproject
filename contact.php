@@ -15,7 +15,7 @@
 <section class="contact">
 
 <div class="content">
-    <h2>Contact uS</h2>
+    <h2>Contact Us</h2>
     
 </div>
 <div class="container">

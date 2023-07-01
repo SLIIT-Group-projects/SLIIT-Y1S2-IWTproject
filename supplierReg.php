@@ -44,7 +44,7 @@ session_start();
         max-width: 750px;
     }
 
-        .container5 {
+    .container5 {
             position: relative;
             max-width: 890px; 
         }
@@ -55,15 +55,15 @@ session_start();
         background: rgb(0, 0, 0); 
         background: rgba(0, 0, 0, 0.5); 
         color: #f1f1f1; 
-        width: 160%; 
+        width: 140%; 
         padding: 20px; 
        
       }
 
     #image_supplierReg{
        height: 1450px;
-       width:1450px;
-      size: cover;
+       width:145%;
+       size: cover;
       }
     
       input[type=text],textarea,select, input[type=email]{
@@ -108,10 +108,10 @@ session_start();
   <div class="container2">
 <h1><center>Supplier Registration</center></br></h1>
 
-<form method="POST" action="submitSupplierReg.php"  ><center>
+<form method="POST" action="submitSupplierReg.php" required><center>
 <label>Company Registerd Name:</lable></br> 
 
-<input type="text" placeholder="ABC (pvt) Ltd" name="Registered_name" ><br>
+<input type="text" placeholder="ABC (pvt) Ltd" name="Registered_name" required><br>
 <label>Company registration Number</label></br> 
 
 <input type="text" placeholder="123456" name="Registration_number" ></br>
@@ -120,7 +120,7 @@ session_start();
 <textarea name="Address" placeholder="6th lane, colombo 11" cols rows=5> </textarea><br>
 <label>Contact Number:</lable><br>
 
-<input type="text" placeholder="0711497951" name="Contact_number" pattern="[0-9]{10}"><br>
+<input type="text" placeholder="0711497951" name="Contact_number" pattern="[0-9]{10}" required><br>
 <label>Email adress:</lable><br>
 
 <input type="email" name="Email" placeholder="ABC@gmail.com"  pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$"><br>
@@ -135,7 +135,7 @@ session_start();
 <input type="text" placeholder="071258258" name="Director_C_number"><br>
 <h3>Material details:<br>
 Select a materials available and type below</h3>
-<select name="material">
+<select name="material" required>
   <option value="mat1"> Cotton </option>
   <option value="mat2"> Silk </option>
   <option value="mat3"> Wool </option></select></br></br>
