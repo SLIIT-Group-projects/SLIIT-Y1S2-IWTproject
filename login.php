@@ -25,11 +25,13 @@
             $user = $result_set->fetch_assoc();
             $_SESSION['user_id'] = $user['nic'];
             $_SESSION['email'] = $user['email'];
-    
-            header('Location: index.php');
+            echo '<script>alert("Successfull")</script>';
+            echo '<script>window.location="index.php"</script>';
             exit;
         } else {
             $error_message = "Invalid email or password";
+            echo '<script>alert("Invalid Username Or Password")</script>';
+            
         }
     }
     

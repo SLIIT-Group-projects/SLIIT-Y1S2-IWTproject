@@ -123,8 +123,8 @@ include_once 'connection/siluniconfig.php';
 
 	<script>
 	function showAlert() {
-		alert("sucessful!");
-        header("Location:index.php");
+		alert("Order successfull");
+        window.location="index.php";
 	}
 	</script>
 </body>

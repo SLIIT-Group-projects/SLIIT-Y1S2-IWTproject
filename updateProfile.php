@@ -28,6 +28,8 @@
         WHERE nic='{$_SESSION['user_id']}'";
          $result = $conn->query($sql);
     }
-    header('Location: profileS.php');
+    echo '<script>alert("Updated Successfully")</script>';
+    echo '<script>window.location="profile.php"</script>';
+    
     $conn->close();
 ?>

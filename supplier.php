@@ -232,9 +232,11 @@
 
             <script>
                 function showAlert() {
-                    alert("Successful!");
+                    alert("Order successfull");
+                    window.location="index.php";
                 }
             </script>
+
         </div>
     </div>
     <hr>

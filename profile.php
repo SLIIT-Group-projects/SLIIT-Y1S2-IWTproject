@@ -79,7 +79,7 @@
 
     <!--Including footer -->
     <?php include 'footer.php'; ?>
-
+    <script src="js/script.js"></script>
     <script src="https://kit.fontawesome.com/79961d807c.js" crossorigin="anonymous"></script>
 </body>
 
