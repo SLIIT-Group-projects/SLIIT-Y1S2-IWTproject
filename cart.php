@@ -21,6 +21,9 @@ include_once 'connection/siluniconfig.php';
 	<link rel="stylesheet" href="css/style.css">
     <title>our products</title>
     <style>
+        body{
+            background-color: #ccd1d1;
+        }
         .product{
             border: 1px solid #eaeaec;
             margin: 2px 2px 8px 2px;

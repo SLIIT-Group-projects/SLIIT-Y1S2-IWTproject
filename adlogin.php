@@ -126,7 +126,6 @@
             <form class="form" method="POST">
                 <input class="input" type="text" name="adminName" placeholder="Admin Name" required="">
                 <input class="input" type="password" name="password" placeholder="Password" required="">
-                <p class="register-link">Don't have an account? <a href="register.php">Register</a></p>
                 <button type="submit" class="form-button" name="submit">Log in</button>
             </form>
         </div>
