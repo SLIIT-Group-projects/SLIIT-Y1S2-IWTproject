@@ -233,7 +233,7 @@
             <script>
                 function showAlert() {
                     alert("Order successfull");
-                    window.location="index.php";
+                    window.location="supplier.php";
                 }
             </script>
 
