@@ -8,7 +8,7 @@ include_once 'connection/siluniconfig.php';
 
     if(isset($_POST["add"])){
         if(isset($_SESSION["shopping_cart"])){
-            $item_array_id = array_column($_SESSION["shopping_cart"],"id");
+            $item_array_id = array_column($_SESSION["shopping_cart"],"product_id");
             if(!in_array($_GET["id"],$item_array_id)){
                 $count = count($_SESSION["shopping_cart"]);
                 $item_array = array(
@@ -19,6 +19,7 @@ include_once 'connection/siluniconfig.php';
                     
                 );
                 $_SESSION["shopping_cart"][$count] = $item_array;
+                echo '<script>alert("Successfully Added")</script>';
                 echo '<script>window.location="product.php"</script>';
             }else{
                 echo '<script>alert("Product is already in  the cart")</script>';

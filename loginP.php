@@ -1,6 +1,7 @@
 <?php 
     session_start();
 ?>
+
 <?php 
 
 if(isset($_SESSION['user_id'])){
@@ -10,6 +11,4 @@ if(isset($_SESSION['user_id'])){
 }else{
     include 'login.php';
 }
-
-
 ?>
