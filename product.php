@@ -92,11 +92,7 @@ include_once 'config.php';
     .checkout-button:hover {
         box-shadow: 0 0 5px black;
     }
-
-        
-
-        
-        
+      
     </style>
 </head>
 <body>
