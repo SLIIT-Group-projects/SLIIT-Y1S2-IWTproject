@@ -136,7 +136,11 @@ include_once 'connection/siluniconfig.php';
 </form>
         </center>
 
-        
+<hr>
+
+
+<!--Including footer -->
+<?php include 'footer.php';?>       
 
 </body>
 </html>

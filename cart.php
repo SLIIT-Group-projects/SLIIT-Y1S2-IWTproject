@@ -130,5 +130,9 @@ include_once 'connection/siluniconfig.php';
         window.location="index.php";
 	}
 	</script>
+<hr>
+
+<!--Including footer -->
+<?php include 'footer.php';?>
 </body>
 </html>
