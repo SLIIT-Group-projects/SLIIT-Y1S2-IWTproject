@@ -1,0 +1,577 @@
+
+
+/* About Us page css */
+/* about us page section 1 */
+.abt_section1 {
+  width: 100%;
+  height: 452px;
+  background-image: url(../resources/aboutUs/background.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: -100px;
+}
+.abt_sect1_container {
+  padding: 0;
+  height: 100%;
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  align-items: center;
+}
+.abt_sect1_box1 {
+  width: 770px;
+  height: 176px;
+  font-size: 80px;
+  color: white;
+  font-weight: bold;
+  border-radius: 20px;
+  background-color: #3e3e3e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* about us page section 2 */
+
+.abt_section2 {
+  width: 100%;
+  height: 600px;
+}
+.abt_sect2_container {
+  padding: 0;
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 80px;
+  gap: 70px;
+}
+.abt_sect2_heading {
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+}
+.abt_sect2_box1 {
+  height: 100px;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+
+  background-color: #555;
+}
+.abt_sect2_box2 {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+.abt_sect2_image {
+  height: 300px;
+  width: 300px;
+  background-size: cover;
+  border-radius: 20px;
+  background-image: url(../resources/aboutUs/our.jpg);
+}
+.abt_sect2_para {
+  width: 400px;
+  color: rgb(50, 49, 49);
+  font-size: 18px;
+  line-height: 35px;
+}
+
+/* about us page section 3 */
+
+.abt_section3 {
+  width: 100%;
+  height: 700px;
+  background-color: #555;
+}
+.abt_sect3_container {
+  padding: 0;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.abt_sect3_box1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.abt_sect3_box3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.abt_sect3_img1 {
+  height: 250px;
+  width: 250px;
+  background-size: cover;
+  border-radius: 20px;
+  background-image: url(../resources/aboutUs/vision.jpg);
+}
+.abt_sect3_para {
+  width: 400px;
+  color: white;
+  font-size: 17px;
+  line-height: 30px;
+}
+
+.abt_sect3_img2 {
+  height: 250px;
+  width: 250px;
+  background-size: cover;
+  border-radius: 20px;
+  background-image: url(../resources/aboutUs/mission.jpg);
+}
+
+.abt_sect3_heading {
+  width: 100px;
+  height: 50px;
+  background-color: #777;
+  border-radius: 20px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.abt_sect3_heading_span {
+  color: rgb(183, 211, 254);
+  font-size: 27px;
+}
+
+/* about us page section 4 css */
+
+.abt_section4 {
+  width: 100%;
+  height: 700px;
+  background-color: #eee9e9;
+}
+.abt_sect4_container {
+  padding: 0;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+.abt_sect4_box1 {
+  width: 250px;
+  height: 100px;
+  background-color: #555;
+  border-radius: 20px;
+  align-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.abt_sect4_heading {
+  font-size: 27px;
+  color: white;
+  font-weight: bold;
+}
+.abt_sect4_btn {
+  padding: 10px 15px;
+  border: 2px solid #7c7b7b;
+  font-size: 17px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.abt_sect4_btn::hover{
+  cursor: pointer;
+}
+/* changing button css */
+.abt_sect4_btn1 {
+  background-color: rgb(89, 89, 231);
+  color: white;
+}
+.abt_sect4_btn2 {
+  background-color: white;
+  color: black;
+}
+
+.abt_sect4_btn3 {
+  background-color: white;
+  color: black;
+}
+
+.abt_sect4_box3 {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+
+}
+
+.abt_sect4_box2_prof {
+  width: 290px;
+  height: 300px;
+  background-color: #747171;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  border-radius: 10px;
+}
+
+/* first profile css */
+.abt_sect4_box2_prof_container {
+  width: 250px;
+  height: 200px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+}
+.abt_sect4_box2_prof1_img {
+  background-image: url(../resources/aboutUs/profile1.jpeg);
+}
+.abt_sect4_box2_prof_para_heading {
+  color: rgb(183, 211, 254);
+  font-size: 20px;
+}
+.abt_sect4_box2_prof_para_txt {
+  color: white;
+  font-size: 16px;
+}
+.abt_sect4_box2_prof_btn {
+  padding: 5px 15px;
+  font-size: 14px;
+  border-radius: 10px;
+  border-color: rgb(183, 211, 254);
+  border-style: solid;
+  cursor: pointer;
+}
+
+/* second profile */
+.abt_sect4_box2_prof2_img {
+  background-image: url(../resources/aboutUs/profile3.jpeg);
+}
+/* second profile */
+.abt_sect4_box2_prof3_img {
+  background-image: url(../resources/aboutUs/profile2.jpeg);
+}
+/*profile image of second sets*/
+.abt_sect4_box2_prof4_img {
+  background-image: url(../resources/aboutUs/profile3.jpeg);
+}
+.abt_sect4_box2_prof5_img {
+  background-image: url(../resources/aboutUs/profile5.jpeg);
+}
+.abt_sect4_box2_prof6_img {
+  background-image: url(../resources/aboutUs/profilee4.jpeg);
+}
+/* profile image od third set  */
+.abt_sect4_box2_prof7_img {
+  background-image: url(../resources/aboutUs/profile7.jpeg);
+}
+.abt_sect4_box2_prof8_img {
+  background-image: url(../resources/aboutUs/profilee8.jpeg);
+}
+.abt_sect4_box2_prof9_img {
+  background-image: url(../resources/aboutUs/profile9.jpeg);
+}
+/* hide and block of profiles */
+#abt_change_block2 {
+  display: none;
+}
+#abt_change_block3 {
+  display: none;
+}
+
+/* about us page section 5 css */
+.abt_section5 {
+  height: 600px;
+  width: 100%;
+  background-color: #686868;
+}
+.abt_sect5_container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+
+  
+}
+.abt_sect5_box1 {
+  width: 300px;
+  height: 60px;
+  border-radius: 20px;
+  align-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #747171;
+}
+.abt_sect5_heading {
+  font-size: 26px;
+  color: white;
+  font-weight: bold;
+}
+.abt_sect5_box2 {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+
+}
+.abt_sect5_box2_prof {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 220px;
+  width: 200px;
+  background-color: #777;
+  gap: 10px;
+  border-radius: 20px;
+}
+.abt_sect5_box2_img_com{
+  width: 130px;
+  height: 130px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: center;
+  border-radius: 10px;
+  
+}
+.abt_sect5_box2_img1{
+  background-image: url(../resources/aboutUs/awardLogo1.png);
+}
+.abt_sect5_box2_img2{
+  background-image: url(../resources/aboutUs/award1.jpeg);
+}
+.abt_sect5_box2_img3{
+  background-image: url(../resources/aboutUs/award2.jpeg);
+}
+.abt_sect5_box2_img4{
+  background-image: url(../resources/aboutUs/award4.jpeg);
+}
+.abt_sect5_box2_para{
+  color: white;
+  width: 150px;
+  text-align: center;
+  font-weight: bold;
+}
+
+/* profile page css - Daham */
+.prof_section1{
+  width: 100%;
+  height: 1200px;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  gap: 100px;
+  background-image: url(../resources/profile/bg.png);
+  background-color: #333336;
+  background-repeat: no-repeat;
+  background-position-x: -200px;
+  background-size: cover;
+}
+.pro_box{
+  width: 500px;
+  height: 800px;
+  border-radius: 20px;
+  margin-top: 50px;
+  background-color: black;
+  opacity: 0.7;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+
+}
+
+.pro_box1_upper{
+  width: 500px;
+  height: 150px;
+  background-image: url(../resources/profile/profbg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-bottom-right-radius:100px ;
+  border-bottom-left-radius:100px ;
+  border-top-left-radius: 20px;
+  border-top-right-radius:20px ;
+  
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  gap: 60px;
+}
+
+.pro_box1_heading{
+  margin-top: 25px;
+  font-family: Comic Sans MS;
+  color: white;
+  font-size: 70px;
+  font-weight: bold;
+}
+.pro_box1_image{
+  /* display: none; */
+  margin-top: 12px;
+  width: 150px;
+  height: 150px;
+  background-image: url(../resources/profile/logo1.png);
+  background-size: cover;
+  border-radius: 80px;
+}
+.pro_box1_lower{
+  width: 400px;
+  height: 560px;
+  /* background-image: url(../resources/profile/dd.png); */
+  background-color: rgba(71, 71, 71, 0.981); 
+  background-position-x: 170px;
+  background-position-y: -30px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 20px;
+  padding-left: 30px;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  transition: 0.5s;
+}
+/* .pro_box1_lower:hover{
+  width: 620px;
+  height: 790px;
+} */
+.pro_box1_lower_com{
+  margin-top: 12px;
+  line-height: 50px;
+  color: white;
+  font-family: Georgia;
+  font-size: 22px;
+  font-weight: bold;
+
+  /* text-align: center; */
+
+}
+.prof_icon{
+  margin-right: 10px;
+}
+/* css of data select from DB */
+.pro_box1_lower_data{
+  color: white;
+  font-family: Times New Roman;
+}
+
+
+.pro_box1_lower_edit{
+  margin-top: 50px;
+  font-size: 25px;
+  margin-right: 50px;
+  margin-left: 50px;
+
+  padding: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 12px;
+  box-shadow: 0 7px #999;
+}
+.pro_box1_lower_edit:hover{
+    /* background-color: #3e8e41; */
+    box-shadow: 0 5px #999;
+    transform: translateY(4px);
+
+}
+
+/* duplicate section of css */
+#pro_box2{
+  display: none;
+}
+
+.pro_box1_duplicate{
+  line-height: 60px;
+}
+.pro_box1_duplicate_sec1{
+  font-size: 28px;
+  color: white;
+
+}
+.pro_box1_duplicate_box{
+  border-radius: 15px;
+  padding: 5px;
+  font-size: 20px;
+}
+.pro_box1_duplicate_btn{
+  display: flex;
+  /* justify-content: left; */
+  /* align-items: flex-start; */
+}
+/* profile page css of if session is not set */
+.nprof_section{
+  width: 100%;
+  height: 700px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../resources/profile/bg.png);
+  background-color: #0d0c22;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.nprof_btn{
+  width: 400px;
+  height: 400px;
+  background-color: #6f6f6f;
+  border-radius: 20px;
+  gap: 60px;
+  opacity: 0.7;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.nprof_signup_btn{
+  font-size: 20px;
+  border-radius: 15px;
+  padding: 15px 80px;
+  margin-left: 5px;
+  cursor: pointer;
+  box-shadow: 0 4px black;
+  margin-top: 15px;
+  
+}
+.nprof_signIn_btn{
+  font-size: 20px;
+  border-radius: 15px;
+  padding: 15px 80px;
+  cursor: pointer;
+  box-shadow: 0 4px black;
+}
+
+.nprof_signup_btn_sec_para{
+  color: white;
+  font-weight: bold;
+  font-size: 17px;
+}
+.nprof_signIn_btn_sec_para{
+  color: white;
+  font-size: 27px;
+}
+.nprof_signIn_btn:hover{
+  background-color: #0d0c22;
+  color: white;
+  box-shadow: 0 4px #edeaea;
+  transform: translateY(7px);
+}
+.nprof_signup_btn:hover{
+  background-color: #0d0c22;
+  color: white;
+  box-shadow: 0 4px #dcdbdb;
+  transform: translateY(7px);
+}
+
+
