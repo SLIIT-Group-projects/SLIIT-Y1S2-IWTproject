@@ -12,19 +12,21 @@ $query = "SELECT * FROM supplierreg WHERE material = '{$mat}'";
 $result = $mysqli->query($query);
 
 if ($result->num_rows > 0) {
-    echo "<table border='1'>
-            <tr>
-                echo <th><input type="checkbox" name="selected_items[]" value="' . $item[0] . '"></th>
-                <th>Registration Number</th>
-                <th>Registered Name</th>
-                <th>Address</th>
-                <th>Contact Number</th>
-                <th>Email</th>
-                <th>Director Name</th>
-                <th>NIC</th>
-                <th>Director Contact Number</th>
-                <th>Material</th>
-            </tr>";
+    if ($result->num_rows > 0) {
+        echo "<table border='1'>
+                <tr>
+                    <th><input type='checkbox' name='selected_items[]' value='". $item[0] . "'></th>
+                    <th>Registration Number</th>
+                    <th>Registered Name</th>
+                    <th>Address</th>
+                    <th>Contact Number</th>
+                    <th>Email</th>
+                    <th>Director Name</th>
+                    <th>NIC</th>
+                    <th>Director Contact Number</th>
+                    <th>Material</th>
+       </tr>";
+    }
 
     while ($row = $result->fetch_assoc()) {
         echo "<tr>";
