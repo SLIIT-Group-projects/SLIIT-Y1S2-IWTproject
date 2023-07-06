@@ -1,4 +1,4 @@
-<?php 
+<?php
 include_once 'connection/siluniconfig.php';
 session_start();
 $dbname = "iwtdb";
@@ -17,7 +17,7 @@ if ($conn->connect_error) {
     <!-- link css file -->
 	<link rel="stylesheet" href="css/style.css">
     <!-- link js file -->
-    
+
 </head>
 
 <body>
@@ -37,7 +37,7 @@ if ($conn->connect_error) {
     $Director_C_number = $_POST['Director_C_number'];
     $material= $_POST['material'];
 
-    $sql = "INSERT INTO supplierreg (Registered_name, Registration_number, Address, Contact_number, Email, Director_name, NIC, Director_C_number,material) 
+    $sql = "INSERT INTO supplierreg (Registered_name, Registration_number, Address, Contact_number, Email, Director_name, NIC, Director_C_number,material)
         VALUES ('$Registered_name', '$Registration_number', '$Address', '$Contact_number', '$Email', '$Director_name', '$NIC', '$Director_C_number','$material')";
 
 

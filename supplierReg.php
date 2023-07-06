@@ -1,4 +1,4 @@
-<?php 
+<?php
 include_once 'connection/siluniconfig.php';
 session_start();
 ?>
@@ -15,7 +15,7 @@ session_start();
     body {
       font-size: 20px;
       padding: 20px;
-    }    
+    }
     form {
       max-width: 1000px;
       margin: 0 auto;
@@ -29,14 +29,14 @@ session_start();
         font:'Poppins';
         font-size:15px;
     }
-  
+
     input{
       background-color: white;
       color:black;
       padding: 10px 15px;
       border: none;
       border-radius: 3px;
-      cursor: pointer; 
+      cursor: pointer;
       font-size:15px;
     }
     p1{
@@ -46,18 +46,18 @@ session_start();
 
     .container5 {
             position: relative;
-            max-width: 890px; 
+            max-width: 890px;
         }
 
     .container5 .content {
         position: absolute;
         bottom: 0;
-        background: rgb(0, 0, 0); 
-        background: rgba(0, 0, 0, 0.5); 
-        color: #f1f1f1; 
-        width: 140%; 
-        padding: 20px; 
-       
+        background: rgb(0, 0, 0);
+        background: rgba(0, 0, 0, 0.5);
+        color: #f1f1f1;
+        width: 140%;
+        padding: 20px;
+
       }
 
     #image_supplierReg{
@@ -65,7 +65,7 @@ session_start();
        width:145%;
        size: cover;
       }
-    
+
       input[type=text],textarea,select, input[type=email]{
       width: 75%;
       padding: 15px;
@@ -109,13 +109,13 @@ session_start();
 <h1><center>Supplier Registration</center></br></h1>
 
 <form method="POST" action="submitSupplierReg.php" required><center>
-<label>Company Registerd Name:</lable></br> 
+<label>Company Registerd Name:</lable></br>
 
 <input type="text" placeholder="ABC (pvt) Ltd" name="Registered_name" required><br>
-<label>Company registration Number</label></br> 
+<label>Company registration Number</label></br>
 
 <input type="text" placeholder="123456" name="Registration_number" ></br>
-<label>Company Address:  </lable></br> 
+<label>Company Address:  </lable></br>
 
 <textarea name="Address" placeholder="6th lane, colombo 11" cols rows=5> </textarea><br>
 <label>Contact Number:</lable><br>
@@ -131,8 +131,10 @@ session_start();
 
 <label>NIC No:</lable><br>
 <input type="text" placeholder="200253402335" name="NIC"><br>
+
 <label>Contact Number:</lable><br>
 <input type="text" placeholder="071258258" name="Director_C_number"><br>
+
 <h3>Material details:<br>
 Select a materials available and type below</h3>
 <select name="material" required>
@@ -142,7 +144,7 @@ Select a materials available and type below</h3>
 </selection>
 
 
-<input type="checkbox" class="inputStyle" id="checkbox">Accept privacy policy and terms</br><br>  
+<input type="checkbox" class="inputStyle" id="checkbox">Accept privacy policy and terms</br><br>
 <input type="submit" value="submit" class="submitbtn">
 
 </form></center>

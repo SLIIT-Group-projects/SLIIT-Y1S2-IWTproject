@@ -14,7 +14,6 @@ $result = $mysqli->query($query);
 if ($result->num_rows > 0) {
     echo "<table border='1'>
             <tr>
-                echo <th><input type="checkbox" name="selected_items[]" value="' . $item[0] . '"></th>
                 <th>Registration Number</th>
                 <th>Registered Name</th>
                 <th>Address</th>
